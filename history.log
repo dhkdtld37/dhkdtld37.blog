@@ -1,0 +1,3355 @@
+    1  vi ~/.zsh
+    2  vi ~/.zshrc
+    3  cat ~/.zshrc | grep ZSH_THEME |grep -v "#"\nZSH_THEME="agnoster"
+    4  cat ~/.zshrc
+    5  wc -l .zshrc
+    6  vi .zshrc
+    7  cat ~/.zshrc | grep ZSH_THEME
+    8  view .zshrc
+    9  cat ~/.zshrc
+   10  cat ~/.ssh/config
+   11  source ~/.zshrc
+   12  ls -l
+   13  ls -al
+   14  mkdir code
+   15  cd code
+   16  mkdir test
+   17  cd test
+   18  ls
+   19  ls -a
+   20  ls -al
+   21  cd
+   22  pwd
+   23  id
+   24  sudo su dhkdtld37
+   25  pwd
+   26  ls
+   27  id
+   28  mkdir app
+   29  ls
+   30  cd code
+   31  pwd
+   32  mkdir gittest
+   33  ls
+   34  cd gittest
+   35  ps
+   36  cd
+   37  ls
+   38  cd /code
+   39  cd cdoe
+   40  cd code
+   41  ls
+   42  mkdir gittest2
+   43  cd gittest
+   44  git init
+   45  cd..
+   46  cd ..
+   47  sudo apt update git
+   48  sudo apt update
+   49  git version
+   50  cd gittest2
+   51  git init
+   52  cd
+   53  git config --global core.editor "vim"
+   54  sudo add-apt-repository ppa:git-core/ppa -y
+   55  sudo apt-get update
+   56  sudo apt-get install git -y
+   57  git version
+   58  cd code
+   59  ls
+   60  mkdir gittest3
+   61  lks
+   62  ls
+   63  cd gittest3
+   64  git init
+   65  git config --global init.defaultBranch main
+   66  cat ~/.gitconfig
+   67  cd
+   68  cat ~/.gitconfig
+   69  cd code
+   70  mkdir gittest4
+   71  cd gittest4
+   72  ls
+   73  git init
+   74  cd
+   75  cd code
+   76  ls
+   77  cd dhkdtld37.github.io
+   78  git init
+   79  git status
+   80  ls
+   81  tree
+   82  sudo apt install tree
+   83  ls
+   84  ls -a
+   85  tree.git
+   86  tree .git
+   87  top
+   88  htop
+   89  git status
+   90  git add .
+   91  git  status
+   92  git commit -m "first commit"
+   93  git config user.email "dhkdtld37@naver.com"
+   94  git config user.name "dhkdtld37"
+   95  git commit -m "first commit"
+   96  git status
+   97  ls -a
+   98  cd .git
+   99  ls
+  100  view config
+  101  cd ..
+  102  cat .git/config
+  103  git remote add origin git@github.com:dhkdtld37/dhkdtld37.github.io.git
+  104  cat .git/config
+  105  git push -u origin main
+  106  ls -al ~/.ssh
+  107  eval "$(ssh-agent -s)"
+  108  git remote add origin git@github.com-dhkdtld37:dhkdtld37/dhkdtld37.github.io.git
+  109  git remote set -url origin git@github.com-dhkdtld37:dhkdtld37/dhkdtld\n37.github.io.git
+  110  git remote set -url origin git@github.com-dhkdtld37:dhkdtld37/dhkdtld37.github.io.git
+  111  git remote set-url origin git@github.com-dhkdtld37:dhkdtld37/dhkdtld37.github.io.git
+  112  git push -u origin main
+  113  ls
+  114  cd ..
+  115  ls
+  116  ls -al
+  117  cd .ssh
+  118  ls
+  119  vi id_rsa_dhkdtls37
+  120  vi id_rsa_dhkdtld37
+  121  ls
+  122  vi config
+  123  cd
+  124  ls
+  125  cd code
+  126  ls
+  127  cd dhkdtld37.github.io
+  128  git push -u origin main
+  129  git remote set-url origin git@github.com:dhkdtld37/dhkdtld37.github.io.git
+  130  git push -u origin main
+  131  ls
+  132  cd
+  133  ls
+  134  cd code
+  135  ls
+  136  cd dhkdtld37.github.io
+  137  ls
+  138  clear
+  139  vimtutor ko
+  140  cd
+  141  ls
+  142  cd code
+  143  ls
+  144  clear
+  145  ls
+  146  cd dhkdtld37.github.io
+  147  vimtutor ko
+  148  cd
+  149  cd code/
+  150  ls
+  151  rm -rf gittest gittest2 gittest3 gittest4 test
+  152  ls
+  153  cd dhkdtld37.github.io
+  154  ls -a
+  155  cd .git
+  156  ls
+  157  git log
+  158  cd ..
+  159  ls -al
+  160  \\ngit branch 0.1.0/tag-a
+  161  cd .git
+  162  ls
+  163  cd ..
+  164  \\ngit branch 0.1.0/tag-a
+  165  cd ..
+  166  cd dhkdtld37.github.io
+  167  \\ngit branch 0.1.0/tag-a
+  168  \\ngit branch
+  169  \\ngit checkout 0.1.0/tag-a
+  170  \\nvi ChangeLog.md
+  171  \\ngit status
+  172  \\ngit add ChangeLog.md
+  173  \\ngit commit -m "start 0.1.0"
+  174  \\ngit push
+  175  \\ngit push --set-upstream origin 0.1.0/tag-a
+  176  cd.ssh/
+  177  clear
+  178  cd .ssh/
+  179  ls
+  180  cat config
+  181  vi config
+  182  ls -a
+  183  vi config
+  184  vi .git/config
+  185  cat ~/.ssh/config
+  186  cp config config.b.230122.1
+  187  vi config
+  188  ls
+  189  mv config config.err
+  190  cp config.b.230122.1 config
+  191  ls
+  192  sudo - root
+  193  ls
+  194  git push
+  195  \\ngit pull
+  196  \\ngit checkout -
+  197  git pull
+  198  \\ngit branch 0.1.1/test-pr
+  199  git checkout 0.1.1/test-pr
+  200  vi ChangeLog.md
+  201  git status
+  202  git push
+  203  git commit -m "start 0.1.0"
+  204  git add ChangeLog.md
+  205  git commit -m "start 0.1.0"
+  206  git push
+  207  git push --set-upstream origin 0.1.1/test-pr
+  208  git status
+  209  vls
+  210  ls
+  211  vi ChangeLog.md
+  212  git status
+  213  git add .
+  214  git status
+  215  cat ChangeLog.md
+  216  git commit -a
+  217  git push
+  218  cd ..
+  219  cd dhkdtld37.github.io
+  220  git checkout -
+  221  git pull
+  222  git branch 0.1.0/tag-a
+  223  git checkout -
+  224  git checkout 0.1.0/tag-a
+  225  git pull
+  226  touch a.htm
+  227  ls
+  228  vi log.log
+  229  touch log.log
+  230  cat log.log
+  231  rm log.log
+  232  ls
+  233  ls -l
+  234  cat a.htm
+  235  git stauts
+  236  git status
+  237  git add a.htm
+  238  git commit -m "네이버 초기화면으로 이동하는 링크가 있는  웹페이지 작성"
+  239  git push
+  240  cat git.config
+  241  ls
+  242  ls -a
+  243  git pull
+  244  vi a.htm
+  245  git add.
+  246  git add .
+  247  git commit -a vi
+  248  git commit -a
+  249  git push
+  250  vi a.htm
+  251  git push
+  252  git commit -a
+  253  git push
+  254  cd
+  255  mkdir code2
+  256  cd code2
+  257  git clone git@github.com:dhkdtld37/dhkdtld37.github.io.git
+  258  cd dhkdtld37.github.io
+  259  git branch -r
+  260  git pull
+  261  git checkout -t origin/0.1.0/tag-a
+  262  ls
+  263  vi a.htm
+  264  sudo apt-get install apache2
+  265  view /etc/apache2/apache2.conf.
+  266  view /etc/apache2/apache2.conf
+  267  cd /etc/apache2
+  268  ls
+  269  vi seites-available
+  270  cd /var/cache
+  271  cd ..
+  272  cd www
+  273  cd html
+  274  ls
+  275  pwd
+  276  ls
+  277  vi index.html
+  278  cd /etc/apache2/
+  279  ls
+  280  pwd
+  281  ls -l
+  282  cd sites-enabled
+  283  ls
+  284  vi 000-default.conf
+  285  ls -l
+  286  sudo vi 000-default.conf
+  287  cd code2/dhkdtld37.github.io
+  288  pwd
+  289  sudo cp 000-default.conf 000-default.conf.b.20230122
+  290  ls
+  291  sudo vi 000-default.conf
+  292  cd ..
+  293  ls
+  294  sudo vi apache2.conf
+  295  sudo chmod o+rx /home /home/dhkdtld37 /home/dhkdtld37/code2 /home/dhkdtld37/code2/dhkdtld37.github.io
+  296  sudo systemctl restart apache2
+  297  ls
+  298  vi a.htm
+  299  cd sites-enabled
+  300  ls
+  301  sudo vi 000-default.conf
+  302  sudo systemctl restart apache2
+  303  ls
+  304  ls -a
+  305  sudo vi 000-default.conf
+  306  cd ..
+  307  ls
+  308  sudo vi apache2.conf
+  309  ls
+  310  cd sites-enabled
+  311  ls
+  312  sudo vi 000-default.conf
+  313  sudo systemctl restart apache2
+  314  sudo vi 000-default.conf
+  315  sudo systemctl restart apache2
+  316  cd ..
+  317  ls
+  318  cd sites-available
+  319  ls
+  320  sudo vi 000-default.conf
+  321  sudo systemctl restart apache2
+  322  sudo vi 000-default.conf
+  323  cd ..
+  324  sudo vi apach2.conf
+  325  ls
+  326  sudo vi apache2.conf
+  327  ls
+  328  cd sites-available
+  329  ls
+  330  sudo vi 000-default.conf
+  331  sudo systemctl restart apache2
+  332  cd
+  333  ls
+  334  cd etc
+  335  cd /etc
+  336  ls
+  337  cd apache2
+  338  ls
+  339  cd
+  340  cd /var
+  341  ls
+  342  cd www
+  343  ls
+  344  cd
+  345  cd code2/dhkdtld37.github.io
+  346  pwd
+  347  cd /var/www
+  348  pwd
+  349  sudo cp -rf /home/dhkdtld37/code2/dhkdtld37.github.io
+  350  sudo cp -rf /home/dhkdtld37/code2/dhkdtld37.github.io .
+  351  ls
+  352  sudo systemctl restart apache2
+  353  cd www
+  354  ls
+  355  history
+  356  ls
+  357  cd
+  358  cd /etc
+  359  ls
+  360  cd apache2
+  361  ls
+  362  sudo vi apache2.conf
+  363  ls
+  364  cd sites-enabled
+  365  ls
+  366  sudo vi 000-default.conf
+  367  cd ..
+  368  cd sites-available
+  369  ls
+  370  sudo vi 0
+  371  sudo vi 000-default.conf
+  372  cd /var
+  373  ls
+  374  cd www
+  375  pwd
+  376  ls
+  377  rm -rf code2
+  378  ls
+  379  cd code
+  380  cd dhkdtld37.github.io
+  381  cd ..
+  382  ls -a
+  383  ls -l
+  384  cd dhkdtld37.github.io
+  385  git status
+  386  git checkout main
+  387  git pull
+  388  git branch 0.2.0/search-console
+  389  git checkout 0.2.0/search-console
+  390  git status
+  391  rm google8b4a3ad5d183b9fa.html:Zone.Identifier
+  392  git stauts
+  393  git status
+  394  vi ChangeLog.md
+  395  git status
+  396  git add .
+  397  git commit -a
+  398  git push
+  399  git push --set-upstream origin 0.2.0/search-console
+  400  git checkout main
+  401  git pull
+  402  git branch 0.3.0/naver-searchadvisor
+  403  git checkout 0.3.0/naver-searchadvisor
+  404  git status
+  405  rm naver76bacb5c0857ddb259b3e26e4145ce6f.html:Zone.Identifier
+  406  ls
+  407  git status
+  408  vi ChangLog.md
+  409  vi ChangeLog.md
+  410  git commit -a
+  411  git push
+  412  git push --set-upstream origin 0.3.0/naver-searchadvisor
+  413  git commit -a
+  414  git add .
+  415  git coomit -a
+  416  git commit -a
+  417  git push
+  418  git checkout -
+  419  git pull
+  420  git branch 0.4.0/SEO-NAVER
+  421  git checkout 0.4.0/SEO-NAVER
+  422  vi ChangeLog.md
+  423  git status
+  424  git commit -a
+  425  git push
+  426  git push --set-upstream origin 0.4.0/SEO-NAVER
+  427  git status
+  428  rm robots.txt:Zone.Identifier
+  429  git status
+  430  vi ChangeLog.md
+  431  git commit -a
+  432  git push
+  433  git push --set-upstream origin 0.4.0/SEO-NAVER
+  434  git checkout -main
+  435  git checkout main
+  436  git pull
+  437  git checkout 0.4.1/SEO-NAVER
+  438  git status
+  439  vi ChangeLog.md
+  440  git commit -a
+  441  git push
+  442  git status
+  443  git add .
+  444  git status
+  445  git commit -a
+  446  git push
+  447  git checkout -
+  448  git branch 0.4.2/SEO-NAVER
+  449  git checkout 0.4.2/SEO-NAVER
+  450  git status
+  451  vi ChangeLog.md
+  452  git commit -a
+  453  git stauts
+  454  git status
+  455  git push
+  456  git push --set-upstream origin 0.4.2/SEO-NAVER
+  457  git checkout main
+  458  git checkout 0.4.2/SEO-NAVER
+  459  git add .
+  460  git status
+  461  git push
+  462  git checkout main
+  463  git branch 0.4.3/SEO-NAVER
+  464  git checkout 0.4.3/SEO-NAVER
+  465  git status
+  466  vi ChangeLog.md
+  467  git commit -a
+  468  git push
+  469  git status
+  470  vi ChangeLog.md
+  471  git commit -a
+  472  git push
+  473  git status
+  474  git pull
+  475  git status
+  476  git checkout -
+  477  git branch 0.4.4/SEO-NAVER
+  478  git checkout 0.4.4/SEO-NAVER
+  479  git status
+  480  vi ChangeLog.md
+  481  git commit -a
+  482  git push
+  483  git push --set-upstream origin 0.4.4/SEO-NAVER
+  484  git chechout -
+  485  git checkout -
+  486  git pull
+  487  cd code
+  488  ls
+  489  cd dhkdtld37.github.io
+  490  ls
+  491  git pull
+  492  git
+  493  git pull
+  494  git branch 0.5.0/firebase
+  495  git checkout 0.5.0/firebase
+  496  vi ChangeLog.md
+  497  git commit -a
+  498  git push
+  499  git push --set-upstream origin 0.5.0/firebase
+  500  vi index.html
+  501  git status
+  502  git add index.html
+  503  git status
+  504  git commit -m "add firebase script"
+  505  npm install -g firebase-tools
+  506  curl -sL https://firebase.tools | bash
+  507  firebase login
+  508  firebase init
+  509  ls -l
+  510  git status
+  511  ls -ltr
+  512  vi firebase.json
+  513  firebase deploy --only hosting:dhkdtld37-a
+  514  vi firebase.json
+  515  firebase deploy --only hosting:dhkdtld37-a
+  516  vi .firebase
+  517  git status
+  518  git add .
+  519  git commit -m "deploy dev STG"
+  520  git push
+  521  firebase deploy
+  522  git pull
+  523  git checkout main
+  524  git pull
+  525  git push
+  526  git branch 0.6.0/css
+  527  git checkout 0.6.0/css
+  528  ChangeLog.md
+  529  vi ChangeLog.md
+  530  git status
+  531  git add .
+  532  git commit -a
+  533  git push
+  534  git checkout main
+  535  firebase deploy
+  536  git checkout 0.6.0/css
+  537  ls
+  538  firebase deploy
+  539  git checkout 0.5.0/firebase
+  540  ls
+  541  firebase deploy
+  542  git checkout main
+  543  git pull
+  544  ls
+  545  git checkout 0.6.0/css
+  546  firebase deploy
+  547  git checkout main
+  548  firebase deploy
+  549  ls
+  550  ls -a
+  551  cd .firebase
+  552  ls
+  553  ls -a
+  554  cd ..
+  555  ls -a
+  556  vi firebase.json
+  557  git branch 0.7.0/resume
+  558  git checkout 0.7.0/resume
+  559  firebase init
+  560  vi cc.html
+  561  vi cc1.html
+  562  firebase deploy
+  563  git status
+  564  git add .
+  565  git status
+  566  firebase deploy
+  567  firebase init
+  568  git status
+  569  vi firebase.json
+  570  ls
+  571  ls -a
+  572  vi firebase.json
+  573  vi ChangeLog.md
+  574  git commit -m "test"
+  575  git commit -a
+  576  git push
+  577  git push --set-upstream origin 0.7.0/resume
+  578  git checkout main
+  579  git checkout 0.7.0/resume
+  580  ls
+  581  git checkout main
+  582  git pull
+  583  git checkout 0.2.0/search-console
+  584  ls
+  585  git checkout main
+  586  git checkout 0.6.0/css
+  587  ls
+  588  git checkout main
+  589  git branch 0.8.0/resume
+  590  git checkout 0.8.0/resume
+  591  vi resume.html
+  592  ls
+  593  git status
+  594  git add .
+  595  firebase init
+  596  firebase deploy
+  597  git status
+  598  vi resume.html
+  599  git status
+  600  firebase deploy
+  601  vi resume.html
+  602  vim resume.html
+  603  firebase deploy
+  604  git status
+  605  firebase deploy
+  606  git status
+  607  vim resume.html
+  608  firebase deploy
+  609  ls
+  610  firebase deploy
+  611  ChangeLog.md
+  612  vi ChangeLog.md
+  613  git commit -a
+  614  git push
+  615  git checkout main
+  616  git pull
+  617  vi ChangeLog.md
+  618  git checkout 0.8.0/resume
+  619  pwd
+  620  code .
+  621  code.
+  622  code .
+  623  cd code
+  624  CD dhkdtld37.github.io
+  625  cd dhkdtld37.github.io
+  626  code ChangeLog.md
+  627  ls
+  628  git status
+  629  firebase deploy
+  630  git status
+  631  vi ChangeLog.md
+  632  git commit -a
+  633  git push
+  634  git checkout main
+  635  git pull
+  636  sudo apt -get install curl
+  637  sudo apt-get install curl
+  638  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+  639  command -v nvm
+  640  nvm ls
+  641  nvm install --lts
+  642  nvm install node
+  643  nvm ls
+  644  node --version
+  645  npm --version
+  646  vi s.js
+  647  cat s.js
+  648  tail s.js
+  649  vi test.js
+  650  cat test.js
+  651  head test.js
+  652  tail test.js
+  653  node test.js
+  654  vi test.js
+  655  node test.js
+  656  vi test.js
+  657  vi test2.js
+  658  node test2.js
+  659  vi test2.js
+  660  node test2.js
+  661  vi test2.js
+  662  ls
+  663  cd code
+  664  ls
+  665  mkdir dhkdtld37
+  666  cd dhkdtld37
+  667  npm init
+  668  touch index.js
+  669  ls
+  670  touch README.MD
+  671  ls
+  672  touch README.md
+  673  ls
+  674  cd
+  675  ls
+  676  vi test3.js
+  677  vi test3-1.js
+  678  node test3.js
+  679  node test3-1.js
+  680  ls
+  681  cd code/dhkdtld37
+  682  ls
+  683  rm README.MD
+  684  ls
+  685  cd
+  686  ls
+  687  vi test3.js
+  688  PS1=" leet $"
+  689  ls
+  690  vi test4.js
+  691  node test4.js
+  692  vi test5.js
+  693  node test5.js
+  694  vi test5.js
+  695  node test5.js
+  696  vi test5.js
+  697  node test5.js
+  698  vi test5.js
+  699  node test5.js
+  700  vi test5.js
+  701  vi test6.js
+  702  node test6.js
+  703  vi test6.js
+  704  node test6.js
+  705  vi test6.js
+  706  node test6.js
+  707  vi test6.js
+  708  node test6.js
+  709  vi test6-1.js
+  710  node test6-1.js
+  711  vi test6-1.js
+  712  node test6-1.js
+  713  vi test6-1.js
+  714  node test6-1.js
+  715  vi test6-1.js
+  716  vi test7.js
+  717  node test7.js
+  718  vi test7.js
+  719  node test6-1.js
+  720  vi test6-1.js
+  721  ls
+  722  vi s.js
+  723  cd app
+  724  ls
+  725  pwd
+  726  ls -a
+  727  cd ..
+  728  ls
+  729  vi test8.js
+  730  node test8.js
+  731  vi test8.js
+  732  cd code
+  733  cd dhkdtld37
+  734  npm package name
+  735  npm install -g dhkdtld37
+  736  cd 
+  737  ls
+  738  cat test8.js
+  739  vi test9.js
+  740  node test9.js
+  741  vi test9.js
+  742  node test9.js
+  743  vi test9.js
+  744  node test9.js
+  745  ls
+  746  vi test9.js
+  747  vi test10.js
+  748  vi test9.js
+  749  vi test10.js
+  750  vi test9.js
+  751  vi test10.js
+  752  node test10.js
+  753  vi test10.js
+  754  vi test9.js
+  755  vi test10.js
+  756  vi test9.js
+  757  vi test10.js
+  758  node test10.js
+  759  vi test10.js
+  760  node test10.js
+  761  vi test10.js
+  762  node test10.js
+  763  vi test10.js
+  764  node test10.js
+  765  vi test10.js
+  766  node test10.js
+  767  vi test10.js
+  768  node test10.js
+  769  vi test10.js
+  770  node test10.js
+  771  vi test10.js
+  772  node test10.js
+  773  vi test10.js
+  774  node test10.js
+  775  vi test10.js
+  776  node test10.js
+  777  cd code
+  778  cd dhkdtld37
+  779  npm install -g
+  780  npm install -g dhkdtld37
+  781  npm install -g dhkdtld3737
+  782  npm install dhkdtld37
+  783  npm package name dhkdtld37
+  784  npm login
+  785  npm install -g npm
+  786  cd code/dhkdtld37
+  787  npm install -g n
+  788  npm adduser
+  789  npm list -g
+  790  ls
+  791  node index.js
+  792  npm login
+  793  npm install -g npm
+  794  npm adduser
+  795  npm login
+  796  npm install -g dhkdtld37
+  797  npm package dhkdtld37
+  798  npm install -gdhkdtld37
+  799  ls
+  800  vi index.js
+  801  vi package.json
+  802  vi index.js
+  803  cat index.js
+  804  npm publish --access public
+  805  npm install -g dhkdtld37
+  806  git init
+  807  echo "# npm_dhkdtld37" >> README.md
+  808  git add README.md
+  809  git branch -M main
+  810  git remote add origin https://github.com/dhkdtld37/npm_dhkdtld37.git
+  811  git push -u origin main
+  812  ls
+  813  cd ..
+  814  cd dhkdtld37
+  815  git checkout -
+  816  git remote add origin https://github.com/dhkdtld37/npm_dhkdtld37.git
+  817  git branch -M main
+  818  git push -u origin main
+  819  git commit -m "first commit"
+  820  git add .
+  821  git stauts
+  822  git status
+  823  git commit - m "first commit"
+  824  git commit -m "first commit"
+  825  git config --global user.emial "hyeonls96@naver.com"
+  826  git config --global user.name "dhkdtld37"
+  827  git config user.email "hyeonls96@naver.com"
+  828  git config user.name "dhkdtld37"
+  829  git commit -m "first commit"
+  830  git push
+  831  git remote add origin git@github.com:dhkdtld37/npm_dhkdtld37.git
+  832  git remote set-url origin git@github.com:dhkdtld37/npm_dhkdtld37.git
+  833  git push
+  834  git push --set-upstream origin main
+  835  ls
+  836  vi Node.gitignore
+  837  npm init
+  838  cd code
+  839  cd dhkdtld37
+  840  git push
+  841  git status
+  842  git add .
+  843  git commit -m "add file"
+  844  git push
+  845  git pull
+  846  node index.js
+  847  git pull
+  848  node index.js
+  849  git pull
+  850  node index.js
+  851  git pull
+  852  node index.js
+  853  git pull
+  854  node index.js
+  855  git pull
+  856  node index.js
+  857  vi package.json
+  858  npm install
+  859  git pull
+  860  git status
+  861  git commit -a
+  862  git push
+  863  node index.js
+  864  git pull
+  865  node index.js
+  866  vi index.js
+  867  git pull
+  868  node index.js
+  869  vi index.js
+  870  git status
+  871  git commit -a
+  872  git push
+  873  node index.js
+  874  npm install -g ./
+  875  npm list -g
+  876  dhkdtld37
+  877  node index.js
+  878  npm login
+  879  npm publish
+  880  npm pkg fix
+  881  npm publish
+  882  git pull
+  883  vi package.json
+  884  git status
+  885  git commit -a
+  886  git push
+  887  git pull
+  888  git config
+  889  git pull origin main --rebase
+  890  git pull
+  891  git status
+  892  git push
+  893  npm publish
+  894  git branch 0.2.1/deploy
+  895  git checkout 0.2.1/deploy
+  896  ls
+  897  vi index.js
+  898  mkdir study
+  899  ls
+  900  cd..
+  901  cd ..
+  902  cd
+  903  ls
+  904  mv test.js test2.js test3.js test3-1.js test4.js test5.js test6.js test6-1.js test7.js test8.js test9.js test10.js /code/dhkdtld37
+  905  cd code
+  906  cd dhkdtld37
+  907  pwd
+  908  cd 
+  909  mv test.js test2.js test3.js test3-1.js test4.js test5.js test6.js test6-1.js test7.js\ntest8.js test9.js test10.js /home/dhkdtld37/code/dhkdtld37
+  910  ls
+  911  mv test.js /home/dhkdtld37/code/dhkdtld37
+  912  ls
+  913  mv test2.js test3.js test3-1.js test4.js test5.js test6.js test6-1.js test7.js  /home/dhkdtld37/code/dhkdtld37
+  914  mv test8.js test test9.js test10.js  /home/dhkdtld37/code/dhkdtld37
+  915  mv test8.js test9.js test10.js /home/dhkdtld37/code/dhkdtld37
+  916  ls
+  917  mv s.js /home/dhkdtld37/code/dhkdtld37
+  918  ls
+  919  cd code
+  920  cd dhkdtld37
+  921  ls
+  922  mv test.js test2.js test3.js test3-1.js test4.js test5.js test6.js test6-1.js test7.js /study
+  923  cd study
+  924  pwd
+  925  cd ..
+  926  mv test.js test2.js test3.js test3-1.js test4.js test5.js test6.js test6-1.js test7.js /home/dhkdtld37/code/dhkdtld37/study
+  927  mv test8.js test9.js test10.js /home/dhkdtld37/code/dhkdtld37/study
+  928  ls
+  929  mv s.js /home/dhkdtld37/code/dhkdtld37/study
+  930  ls
+  931  cd study
+  932  ls
+  933  git status
+  934  git commit -a
+  935  git add .
+  936  git commit -a
+  937  git push
+  938  git stauts
+  939  git status
+  940  git checkout main
+  941  git pull
+  942  git branch 0.3.0/pop
+  943  git checkout 0.3.0/pop
+  944  ls
+  945  ls -a
+  946  mkdir pop
+  947  cd pop
+  948  vi pop.js
+  949  node pop.js
+  950  vi pop.js
+  951  node pop.js
+  952  vi pop2.js
+  953  node pop2.js
+  954  vi pop2.js
+  955  vi pop.js
+  956  node pop.js
+  957  node pop2.js
+  958  vi concat.js
+  959  vi some.js
+  960  node some.js
+  961  ls
+  962  git stauts
+  963  git status
+  964  vi some.js
+  965  vi forEach.js
+  966  node forEach.js
+  967  vi forEach.js
+  968  vi map.js
+  969  node map.js
+  970  vi reduce.js
+  971  node reduce.js
+  972  vi reduce.js
+  973  ls
+  974  vi join.js
+  975  node join.js
+  976  vi testa.js
+  977  node testa.js
+  978  vi testa.js
+  979  node testa.js
+  980  ls
+  981  git add .
+  982  git commit -a
+  983  git push
+  984  cd
+  985  cd code/dhkdtld37
+  986  git checkout main
+  987  git checkout 0.2.1/deploy
+  988  ls
+  989  npm uninstall
+  990  npm uninstall -g dhkdtld37
+  991  npm install -g ./
+  992  dhkdtld37 홍길동 이순신 김유신
+  993  vi index.js
+  994  dhkdtld37 홍길동 임꺽정 이순신
+  995  vi ine
+  996  vi index.js
+  997  dhkdtld37 홍길동 임꺽정
+  998  vi index.js
+  999  dhkdtld37 가 나 다 라 마 바
+ 1000  node index.js
+ 1001  git status
+ 1002  git checkout main
+ 1003  git pull
+ 1004  ls
+ 1005  vi package.json
+ 1006  git commit -a
+ 1007  git push
+ 1008  npm publish
+ 1009  vi ine
+ 1010  ls
+ 1011  vi index.js
+ 1012  npm install -g star_jsm6330
+ 1013  star_jsm6330 김일우 나미리 도민준
+ 1014  ㅣㄴ
+ 1015  ls
+ 1016  vi index.js
+ 1017  dhkdtld37 가 나 다 라 마
+ 1018  git pull
+ 1019  cd
+ 1020  ls
+ 1021  vi FIL
+ 1022  cd app
+ 1023  ls
+ 1024  cd
+ 1025  cd code/dhkdtld37
+ 1026  ls
+ 1027  node index.js
+ 1028  git pull
+ 1029  vi package.json
+ 1030  git commit -a
+ 1031  git push
+ 1032  npm publish
+ 1033  sudo apt-get update
+ 1034  sudo apt-get install openjdk1-11-jdk
+ 1035  sudo apt-get install openjdk-11-jdk
+ 1036  which java
+ 1037  ls -l /path/to/your/java
+ 1038  ls -l /usr/bin/java
+ 1039  ls -l /etc/alternatives/java
+ 1040  vi ~/.zshrc
+ 1041  java -version
+ 1042  pwd ~/app
+ 1043  tree
+ 1044  java -jar ngrinder-controller-{version}.war
+ 1045  java -jar ngrinder-controller-{3.5.8}.war
+ 1046  mkdir -p ~/app/ng/controller
+ 1047  cd ~/app/ng/controller
+ 1048  unzip ngrinder-controller-3.5.8.war -d ngrinder
+ 1049  pwd
+ 1050  unzip ngrinder-controller-3.5.8.war -d ngrinder
+ 1051  tree
+ 1052  cd ..
+ 1053  tree
+ 1054  cd ..
+ 1055  tree
+ 1056  vi ~/.zshrc
+ 1057  source ~/.zshrc
+ 1058  echo $JAVA_HOME
+ 1059  java -version
+ 1060  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -jar ngrinder-controller-X.X.war
+ 1061  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -jar ngrinder-controller-3.5.8.war
+ 1062  cd ng/controller
+ 1063  java -Djava.io.tmpdir=/path/to/your/ngrinder/controller/lib -jar ngrinder-controller-3.5.8.war
+ 1064  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -XX:MaxPermSize=200m -jar  ngrinder-controller-3.4.war
+ 1065  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -XX:MaxPermSize=200m -jar  ngrinder-controller-3.5.8.war
+ 1066  java -Djava.io.tmpdir=/path/to/your/ngrinder/controller/lib -XX:MaxPermSize=200m -jar  ngrinder-controller-3.4.war
+ 1067  ls -ld ${NGRINDER_HOME}/lib
+ 1068  cd ${NGRINDER_HOME}/lib
+ 1069  java -Djava.io.tmpdir=/path/to/your/ngrinder/controller/lib -XX:MaxPermSize=200m -jar  ngrinder-controller-3.5.8.war
+ 1070  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -XX:MaxPermSize=200m -jar ngrinder-controller-3.5.8.war
+ 1071  cd
+ 1072  cd app
+ 1073  cd ng
+ 1074  cd controller
+ 1075  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -XX:MaxPermSize=200m -jar ngrinder-controller-3.5.8.war
+ 1076  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -jar ngrinder-controller-X.X.war
+ 1077  java -Djava.io.tmpdir=${NGRINDER_HOME}/lib -jar ngrinder-controller-3.5.8.war
+ 1078  which java
+ 1079  ls -l /usr/bin/java
+ 1080  tree
+ 1081  ls
+ 1082  java -jar ngrinder-controller-3.5.8.war
+ 1083  ls
+ 1084  cd app
+ 1085  ls
+ 1086  cd ng
+ 1087  ls
+ 1088  tar -xvf ngrinder-agent-3.5.8-localhost.tar
+ 1089  ls
+ 1090  cd ngrinder-agent
+ 1091  ls
+ 1092  ./run_agent.sh
+ 1093  sudo apt install net-tools
+ 1094  ifconfig -a | grep inet | grep broadcast
+ 1095  ls -ltr
+ 1096  cd /var
+ 1097  ls
+ 1098  ls -ltr
+ 1099  cd log/apache2
+ 1100  ls
+ 1101  tail -f acces.log
+ 1102  tail -f access.log
+ 1103  cd /var/log/apache2
+ 1104  ls
+ 1105  tail -f access.log
+ 1106  ls
+ 1107  tail -f access.log
+ 1108  htop
+ 1109  tail -f access.log
+ 1110  tail -f access.log
+ 1111  ls
+ 1112  cat other_vhosts.access.log
+ 1113  cat other_vhosts.access.log | grep -v 200
+ 1114  ls
+ 1115  cd code/dhkdtld37.github.io
+ 1116  ls
+ 1117  vi index.html
+ 1118  git status
+ 1119  git commit -a
+ 1120  git push
+ 1121  ifconfig
+ 1122  vi index.html
+ 1123  git commit -a
+ 1124  git push
+ 1125  vi index.html
+ 1126  git commit -a
+ 1127  git push
+ 1128  mv test.jpg /var/www/dhkdtld37.github.io
+ 1129  sudo mv test.jpg /var/www/dhkdtld37.github.io
+ 1130  cd /var/www/dhkdtld37.github.io
+ 1131  ls
+ 1132  mv test.jpg images/
+ 1133  sudo mv test.jpg images/
+ 1134  ls
+ 1135  sudo vi index.html
+ 1136  ls
+ 1137  git statsu
+ 1138  git status
+ 1139  vi index.html
+ 1140  git commit -a
+ 1141  git push
+ 1142  vi index.html
+ 1143  git commit -a
+ 1144  git push
+ 1145  vi index.html
+ 1146  git status
+ 1147  git add .
+ 1148  git commit -a
+ 1149  git push
+ 1150  vi index.html
+ 1151  git commit -a
+ 1152  git push
+ 1153  git pull
+ 1154  vi index.html
+ 1155  git commit -a
+ 1156  git push
+ 1157  git pull
+ 1158  ls
+ 1159  cd
+ 1160  cd /etc
+ 1161  ls
+ 1162  cd apache2
+ 1163  ls
+ 1164  cd mods-enabled
+ 1165  apach2ctl -v
+ 1166  apache2ctl -V
+ 1167  ls -l
+ 1168  ls -l *event*
+ 1169  cd ../mods-available
+ 1170  ls *event*.conf
+ 1171  pwd
+ 1172  PS1="$ "
+ 1173  PWD
+ 1174  pwd
+ 1175  sudo cp mpm_event.conf mpm_event.conf.backup
+ 1176  sudo vi mpm_event.conf
+ 1177  ls
+ 1178  sudo systemctl restart apach2
+ 1179  sudo systemctl restart apache2
+ 1180  tail -f access.log
+ 1181  sudo vi mpm_event.conf
+ 1182  ls *event*.conf
+ 1183  sudo vi mpm_event.conf.b
+ 1184  ls
+ 1185  sudo vi mpm_event.conf.backup
+ 1186  sudo vi mpm_event.conf
+ 1187  sudo systemctl restart apache2
+ 1188  tail -f access.log
+ 1189  cd /var/log/apache2
+ 1190  ls -ltr
+ 1191  cat error.log
+ 1192  ls
+ 1193  cd code
+ 1194  ls
+ 1195  cd dhkdtld37.github.io
+ 1196  ls
+ 1197  cd ..
+ 1198  cd dhkdtld37
+ 1199  ls
+ 1200  cd ..
+ 1201  cd dhkdtld37.github.io
+ 1202  ls
+ 1203  vi cc.html
+ 1204  vi test1.html
+ 1205  vi test1.js
+ 1206  node test1.js
+ 1207  git commit -m
+ 1208  git commit -a
+ 1209  git add .
+ 1210  git commit -a
+ 1211  git push
+ 1212  git pull
+ 1213  git checkout 0.2.1/deploy
+ 1214  cd ..
+ 1215  cd dhkdtld37
+ 1216  ls
+ 1217  git checkout 0.2.1/deploy
+ 1218  ls
+ 1219  cd study
+ 1220  ls
+ 1221  vi test11.js
+ 1222  node test11.js
+ 1223  vi test12.js
+ 1224  node test12.js
+ 1225  cd ..
+ 1226  cd dhkdtld37.github.io
+ 1227  ls
+ 1228  rm test1.js
+ 1229  git push
+ 1230  git status
+ 1231  git add .
+ 1232  git push
+ 1233  git commit -a
+ 1234  git push
+ 1235  cd 
+ 1236  cd code/dhkdtld37
+ 1237  git stauts
+ 1238  git status
+ 1239  git add .
+ 1240  git commit -a
+ 1241  git push
+ 1242  git checkout main
+ 1243  git branch 0.4.0/Default_parameter
+ 1244  git checkout 0.4.0/Default_parameter
+ 1245  vi test13.vs
+ 1246  vi test13.js
+ 1247  node test13.js
+ 1248  vi test13.js
+ 1249  node test13.js
+ 1250  cat test13.js
+ 1251  node test13.js
+ 1252  ls
+ 1253  node index.js
+ 1254  node test13.js
+ 1255  vi test13.js
+ 1256  vi test14.js
+ 1257  node test14.js
+ 1258  git checkout 0.2.1/deploy
+ 1259  git status
+ 1260  ls
+ 1261  cd study
+ 1262  ls
+ 1263  git checkout 0.4.0/Default_parameter
+ 1264  ls
+ 1265  git status
+ 1266  mkdir study
+ 1267  ls
+ 1268  cd study
+ 1269  git add .
+ 1270  vi test14.js
+ 1271  vi test15.js
+ 1272  node test14.js
+ 1273  node test15.js
+ 1274  git stauts
+ 1275  git status
+ 1276  git add .
+ 1277  cd ..
+ 1278  git stauts
+ 1279  git status
+ 1280  git add .
+ 1281  ls
+ 1282  git add .
+ 1283  ls
+ 1284  git status
+ 1285  cd ..
+ 1286  ls
+ 1287  cd study
+ 1288  ls
+ 1289  cd study
+ 1290  ls
+ 1291  git add .
+ 1292  git cd 
+ 1293  cd ..
+ 1294  ls
+ 1295  git stauts
+ 1296  git status
+ 1297  git add .
+ 1298  git ls
+ 1299  ls
+ 1300  git status
+ 1301  cd study
+ 1302  git add .
+ 1303  git status
+ 1304  git add ../../test13.js
+ 1305  git add ../../test14.js
+ 1306  git ls
+ 1307  git stauts
+ 1308  git status
+ 1309  cd .. ..
+ 1310  cd ..
+ 1311  ls
+ 1312  cd ..
+ 1313  ls
+ 1314  cd ..
+ 1315  cd dhkdtld37
+ 1316  cd study
+ 1317  ls
+ 1318  vi test16.js
+ 1319  node test16.js
+ 1320  vi test16.js
+ 1321  node test16.js
+ 1322  cd study
+ 1323  ls
+ 1324  mv test14.js ..
+ 1325  ls
+ 1326  mv test15.js ..
+ 1327  cd ..
+ 1328  ls
+ 1329  git add .
+ 1330  ls
+ 1331  mv study
+ 1332  rm study
+ 1333  rmd study
+ 1334  ls
+ 1335  vi test17.js
+ 1336  vi test17-1.js
+ 1337  node test17-1.js
+ 1338  git add .
+ 1339  ls
+ 1340  cd ..
+ 1341  ls
+ 1342  mv test13.js /study
+ 1343  mv test13.js study
+ 1344  ls
+ 1345  mv test14.js study
+ 1346  ls
+ 1347  cd study
+ 1348  ls
+ 1349  vi test18.js
+ 1350  node test18.js
+ 1351  git add .
+ 1352  ls
+ 1353  cd study
+ 1354  ls
+ 1355  cd ..
+ 1356  rmdir /study
+ 1357  ls
+ 1358  rm -r ~/code/dhkdtld37/study/study
+ 1359  ls
+ 1360  git checkout 0.2.1/deploy
+ 1361  ls
+ 1362  git checkout 0.4.0/Default_parameter -- path/to/test11.js
+ 1363  git checkout 0.4.0/Default_parameter
+ 1364  ls
+ 1365  git commit -a
+ 1366  git push
+ 1367  git checkout main
+ 1368  git branch 0.4.1/Default_parameter
+ 1369  git checkout 0.4.1/Default_parameter
+ 1370  ls
+ 1371  vi test11.js
+ 1372  vi teset12.js
+ 1373  git add .
+ 1374  git commit -a
+ 1375  git push
+ 1376  cd ..
+ 1377  ls
+ 1378  git checkout main
+ 1379  git checkout 
+ 1380  git pull
+ 1381  ls
+ 1382  dhkdtld37 가 나 다 라 마
+ 1383  git branch 0.4.2/RF
+ 1384  git checkout 0.4.2/RF
+ 1385  ls
+ 1386  vi package.json
+ 1387  git status
+ 1388  git commit -a
+ 1389  git push
+ 1390  git push --set-upstream origin 0.4.2/RF
+ 1391  dhkdtld37 가 나 다 라 마 바 사
+ 1392  dhkdtld37 가 나 다
+ 1393  dhkdtld37 가 나
+ 1394  dhkdtld37 가가가가가가 나나나나나나 다다다다다다 라라라라
+ 1395  node index.js 가 나 다 라 마
+ 1396  node random-name.js 가 나
+ 1397  dhkdtld37 arg1 arg2 arg3 
+ 1398  dhkdtld37 arg1 arg2 arg3 arg4
+ 1399  npm login
+ 1400  npm publish
+ 1401  vi index.js
+ 1402  node index.js 가 나
+ 1403  vi index.js
+ 1404  node index.js 가 나
+ 1405  node index.js 가 나 다
+ 1406  vi index.js
+ 1407  git commit -a
+ 1408  git push
+ 1409  vi index.js
+ 1410  git commit -a
+ 1411  git push
+ 1412  node index.js 가가 나나 다다 라라 
+ 1413  node index.js 가가 나나
+ 1414  npm publish
+ 1415  vi package.json
+ 1416  git commit -a
+ 1417  git push
+ 1418  npm publish
+ 1419  vi README.md
+ 1420  vi package.json
+ 1421  git commit -a
+ 1422  git push
+ 1423  npm publish
+ 1424  git checkout main
+ 1425  dhkdtld37 가가 나나 다다 라라
+ 1426  vi index.js
+ 1427  npm i dhkdtld37
+ 1428  git status
+ 1429  git add .
+ 1430  git status
+ 1431  git commit -a
+ 1432  git push
+ 1433  git pull
+ 1434  git status
+ 1435  git pull
+ 1436  git config
+ 1437  cd code/dhkdtld37
+ 1438  git push
+ 1439  git push --help
+ 1440  git pull origin main
+ 1441  git pull origin main --rebase
+ 1442  git push origin main
+ 1443  ls
+ 1444  vi index.js
+ 1445  dhkdtld37 가 나
+ 1446  ls
+ 1447  cd node_modules
+ 1448  ls
+ 1449  cd 
+ 1450  cd code/dhkdtld37
+ 1451  ls
+ 1452  rm -r ~/code/dhkdtld37/node_modules
+ 1453  git status
+ 1454  git commit -a
+ 1455  git push
+ 1456  git pull
+ 1457  dhkdtld37 가 나 다
+ 1458  dhkdtld37 가 나 
+ 1459  sudo docker iamges
+ 1460  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1461  sudo apt-get update
+ 1462  ls
+ 1463  cd ..
+ 1464  sudo apt-get update
+ 1465  sudo apt-get install ca-certificates curl
+ 1466  sudo install -m 0755 -d /etc/apt/keyrings
+ 1467  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+ 1468  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1469  echo \\n  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \\n  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \\n  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1470  sudo apt-get update
+ 1471  echo \\n  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \\n  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \\n  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1472  sudo apt-get update
+ 1473  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+ 1474  sudo docker run hello-world
+ 1475  sudo docker images
+ 1476  sudo docker ps -a
+ 1477  sudo docker run --name nginx-lb -d -p 9050:80 nginx:1.25.3
+ 1478  sudo docker ps
+ 1479  sudo docker run --name naver-1 -d -p 9051:80 nginx:1.25.3
+ 1480  sudo docker run --name naver-2 -d -p 9052:80 nginx:1.25.3
+ 1481  sudo docker run --name google-3 -d -p 9053:80 nginx:1.25.3
+ 1482  sudo docker ps
+ 1483  sudo docker exec -it naver-1 bash
+ 1484  $ apt install vim
+ 1485  apt install vim
+ 1486  sudo docker exec -it naver-1 bash
+ 1487  apt install vim
+ 1488  sudo apt install vim
+ 1489  sudo docker exec -it naver-1 bash
+ 1490  sudo docker exec -it naver-2 bash
+ 1491  sudo docker exec -it google-3 bash
+ 1492  sudo docker exec -it naver-1 bash
+ 1493  docker pull nginx
+ 1494  sudo docker pull nginx
+ 1495  sudo docker exec -it naver-1 bash
+ 1496  ipconfig -a
+ 1497  ifconfig -a
+ 1498  sudo docker exec -it naver-1 bash
+ 1499  sudo docker exec -it nginx-lb bash
+ 1500  sudo docker exec -it naver-2 bash
+ 1501  sudo docker exec -it nginx-lb bash
+ 1502  ifconfig
+ 1503  sudo docker exec -it nginx-lb bash
+ 1504  sudo docker ps -a
+ 1505  sudo docker exec -it naver-1 bash
+ 1506  sudo docker exec -it nginx-lb bash
+ 1507  ifconfig
+ 1508  sudo docker exec -it nginx-lb bash
+ 1509  sudo docker exec -it naver-1 bash
+ 1510  sudo docker exec -it nginx-lb bash
+ 1511  sudo docker exec -it naver-1 bash
+ 1512  ifconfig -a | grep inet | grep broadcast
+ 1513  ifconfig
+ 1514  tail -f <PATH>
+ 1515  ls
+ 1516  sudo docker ps
+ 1517  sudo docker exec -it nginx-lb bash
+ 1518  sudo docker exec -it naver-1 bash
+ 1519  sudo docker exec -it naver-2 bash
+ 1520  sudo docker exec -it google-3 bash
+ 1521  sudo vi /etc/hosts
+ 1522  ls
+ 1523  sudo vi /etc/hosts
+ 1524  sudo docker stop naver-1
+ 1525  sudo docker ps
+ 1526  sudo docker start naver-1
+ 1527  sudo docker ps
+ 1528  sudo vi /etc/hosts
+ 1529  /etc/hosts
+ 1530  cd /etc/hosts
+ 1531  cd /etc
+ 1532  ls
+ 1533  pwd
+ 1534  cd ..
+ 1535  cd /etc/hosts
+ 1536  sudo vi /etc/hosts
+ 1537  nginx -s reload
+ 1538  sudo docker exec -it nginx-lb bash
+ 1539  ls
+ 1540  cd code/dhkdtld37
+ 1541  ls
+ 1542  cd study
+ 1543  ls
+ 1544  vi test18.js
+ 1545  vi test19.js
+ 1546  node test19.js
+ 1547  vi test19.js
+ 1548  cat test19.js
+ 1549  vi test19.js
+ 1550  node test19.js
+ 1551  vi test19.js
+ 1552  node test19.js
+ 1553  git status
+ 1554  vi test20.js
+ 1555  node test20.js
+ 1556  vi test20.js
+ 1557  node test20.js
+ 1558  vi test20.js
+ 1559  cat test20.js
+ 1560  vi test21.js
+ 1561  node test21.js
+ 1562  vi test21.js
+ 1563  node test21.js
+ 1564  vi test21.js
+ 1565  node test21.js
+ 1566  cat test21.js
+ 1567  mkdir 2024_01_30
+ 1568  ls
+ 1569  mv test19.js 2024_01_30c
+ 1570  ls
+ 1571  cd 2024_01_30c
+ 1572  mv 2024_01_30c test19.js
+ 1573  ls
+ 1574  mv test19.js 2024_01_30
+ 1575  mv test20.js 2024_01_30
+ 1576  mv test21.js 2024_01_30
+ 1577  ls
+ 1578  cd 2024_01_30
+ 1579  ls
+ 1580  vi test22.js
+ 1581  node test22.js
+ 1582  vi test22.js
+ 1583  node test22.js
+ 1584  vi test22.js
+ 1585  node test22.js
+ 1586  vi test22.js
+ 1587  node test22.js
+ 1588  vi test22.js
+ 1589  vi test23.js
+ 1590  node test23.js
+ 1591  vi test23.js
+ 1592  node test23.js
+ 1593  cat test23.js
+ 1594  vi test24.js
+ 1595  node test24.js
+ 1596  vi test24.js
+ 1597  vi test25.js
+ 1598  node test25.js
+ 1599  vi test25.js
+ 1600  node test25.js
+ 1601  vi test25.js
+ 1602  vi test26.js
+ 1603  node test26.js
+ 1604  vi test26.js
+ 1605  node test26.js
+ 1606  vi test26.js
+ 1607  cat test26.js
+ 1608  vi test26.js
+ 1609  node test26.js
+ 1610  vi test26.js
+ 1611  node test26.js
+ 1612  vi test26.js
+ 1613  vi test27.js
+ 1614  node test27.js
+ 1615  vi test27.js
+ 1616  vi test28.js
+ 1617  node test28.js
+ 1618  vi test28.js
+ 1619  node test28.js
+ 1620  vi test28.js
+ 1621  node test28.js
+ 1622  vi test28.js
+ 1623  ls
+ 1624  vi test29.js
+ 1625  node test29.js
+ 1626  vi test29.js
+ 1627  node test29.js
+ 1628  vi test29.js
+ 1629  vi test30.js
+ 1630  node test30.js
+ 1631  vi test30.js
+ 1632  vi test31.js
+ 1633  node test31.js
+ 1634  vi test31.js
+ 1635  node test31.js
+ 1636  vi test31.js
+ 1637  vi test32.js
+ 1638  node test32.js
+ 1639  vi test32.js
+ 1640  node test32.js
+ 1641  vi test32.js
+ 1642  node test32.js
+ 1643  vi test33.js
+ 1644  node test33.js
+ 1645  ls
+ 1646  vi test33.js
+ 1647  node test33.js
+ 1648  vi test33.js
+ 1649  node test33.js
+ 1650  ls
+ 1651  cat test33.js
+ 1652  vi test33.js
+ 1653  node test33.js
+ 1654  vi test33.js
+ 1655  node test33.js
+ 1656  vi test33.js
+ 1657  node test33.js
+ 1658  git status
+ 1659  git add .
+ 1660  git status
+ 1661  git push
+ 1662  git commit -a
+ 1663  git push
+ 1664  git status
+ 1665  ls
+ 1666  vi test33.js
+ 1667  node test33.js
+ 1668  cat test33.js
+ 1669  vi test33.js
+ 1670  node test33.js
+ 1671  ls
+ 1672  vi test33.js
+ 1673  node test33.js
+ 1674  vi test33.js
+ 1675  node test33.js
+ 1676  vi test33.js
+ 1677  node test33.js
+ 1678  vi test33.js
+ 1679  node test33.js
+ 1680  vi test33.js
+ 1681  node test33.js
+ 1682  vi test33.js
+ 1683  node test33.js
+ 1684  vi test33.js
+ 1685  node test33.js
+ 1686  vi test34.js
+ 1687  node test33.js
+ 1688  node test34.js
+ 1689  vi test34.js
+ 1690  git add .
+ 1691  git commit -a
+ 1692  git push
+ 1693  cd ..
+ 1694  ls
+ 1695  cd ..
+ 1696  ls
+ 1697  cd
+ 1698  node -v
+ 1699  npm create vue@latest
+ 1700  cd
+ 1701  ls
+ 1702  cd code
+ 1703  pwd
+ 1704  npm create vue@latest
+ 1705  cd dhkdtld37-hello-vue.github.io
+ 1706  ls
+ 1707  tree
+ 1708  ls -al
+ 1709  pwd
+ 1710  git init
+ 1711  git add REDME.md
+ 1712  git commit -m "first commit"
+ 1713  git add .
+ 1714  git commit -m "first commit"
+ 1715  git branch -M main
+ 1716  remote add origin git@github.com:dhkdtld37-hello-vue/dhkdtld37-hello-vue.github.io.git
+ 1717  git remote add origin git@github.com:dhkdtld37-hello-vue/dhkdtld37-hello-vue.github.io.git
+ 1718  git push -u origin main
+ 1719  ls
+ 1720  ls -al
+ 1721  npm install
+ 1722  cd code/dhkdtld37-hello-vue.github.io
+ 1723  npm install
+ 1724  npm run dev
+ 1725  du -s node_modules
+ 1726  du -sh node_modules
+ 1727  cat .gitignore | grep node_modules
+ 1728  git status
+ 1729  git add .
+ 1730  git status
+ 1731  git commit - m "npm install"
+ 1732  git commit -m "npm install"
+ 1733  git push
+ 1734  npm run dev
+ 1735  rm -rf node_modules
+ 1736  vite
+ 1737  npm run dev
+ 1738  git status
+ 1739  npm run build
+ 1740  npm run dev
+ 1741  npm install
+ 1742  git stauts
+ 1743  git status
+ 1744  npm run dev
+ 1745  npm run build
+ 1746  view dist/index.html
+ 1747  cd dist
+ 1748  tree
+ 1749  ls
+ 1750  pwd
+ 1751  git status
+ 1752  git branch 0.1.0/dist2docs
+ 1753  git checkout 0.1.0/dist2docs
+ 1754  ls
+ 1755  cd ..
+ 1756  ls
+ 1757  vi package.json
+ 1758  git status
+ 1759  git commit -a
+ 1760  git push
+ 1761  git push --set-upstream origin 0.1.0/dist2docs
+ 1762  ls
+ 1763  vi package.json
+ 1764  vi index.html
+ 1765  vi jsconfig.json
+ 1766  vi vite.config.js
+ 1767  npm run build
+ 1768  git status
+ 1769  git add .
+ 1770  git commit -a
+ 1771  git push
+ 1772  vi .gitignore
+ 1773  git status
+ 1774  git add .
+ 1775  git status
+ 1776  git commit -m "first deploy - github page"
+ 1777  git push
+ 1778  git status
+ 1779  npm run build
+ 1780  git push
+ 1781  l
+ 1782  ls
+ 1783  npm install firebase
+ 1784  git status
+ 1785  vi package.json
+ 1786  git add .
+ 1787  git status
+ 1788  ls
+ 1789  vi index.html
+ 1790  vi main.js
+ 1791  firebase init
+ 1792  ls
+ 1793  firebase init
+ 1794  ls
+ 1795  git status
+ 1796  git add .
+ 1797  ls
+ 1798  cd public
+ 1799  ls
+ 1800  vi index.html
+ 1801  ls
+ 1802  cd ..
+ 1803  ls
+ 1804  vi firebase.json
+ 1805  ls
+ 1806  ls -l
+ 1807  ls -a
+ 1808  ls
+ 1809  pwd
+ 1810  ls
+ 1811  cd ..
+ 1812  cd src
+ 1813  ls
+ 1814  ls -a
+ 1815  cd app
+ 1816  ls
+ 1817  cd ng
+ 1818  ls
+ 1819  cd ..
+ 1820  cd app
+ 1821  cd
+ 1822  cd code/dhkdtld37-hello-vue.github.io
+ 1823  ls
+ 1824  vi jsconfig.json
+ 1825  vi package.json
+ 1826  vi vite.config.js
+ 1827  ls
+ 1828  cd docs
+ 1829  ls
+ 1830  vi index.html
+ 1831  cd ..
+ 1832  ls
+ 1833  cd src
+ 1834  ls
+ 1835  vi main.js
+ 1836  git status
+ 1837  git add .
+ 1838  cd ..
+ 1839  ls
+ 1840  npm install -g firebase-tools
+ 1841  firebase login
+ 1842  firebase deploy
+ 1843  ls
+ 1844  vi firebase.json
+ 1845  firebase deploy
+ 1846  git stauts
+ 1847  git status
+ 1848  git add .
+ 1849  ls
+ 1850  vi index.html
+ 1851  cd docs
+ 1852  ls
+ 1853  vi index.html
+ 1854  ls
+ 1855  cd assets
+ 1856  ls
+ 1857  vi index-WjEyzLJD.css
+ 1858  cd ..
+ 1859  ls
+ 1860  cd ..
+ 1861  ls
+ 1862  vi firebase.json
+ 1863  vi package.json
+ 1864  git commit -a
+ 1865  git push
+ 1866  ls
+ 1867  cd src
+ 1868  ls
+ 1869  pwd
+ 1870  cat main.js
+ 1871  vi main.js
+ 1872  ls
+ 1873  cd ..
+ 1874  ls
+ 1875  vi firebase.json
+ 1876  vi package.json
+ 1877  git status
+ 1878  ls
+ 1879  cd code
+ 1880  ls
+ 1881  cd dhkdtld37-hello-vue.github.io
+ 1882  git checkout main
+ 1883  cd code/dhkdtld37-hello-vue.github.io
+ 1884  git checkout 0.1.0/dist2docs
+ 1885  ls
+ 1886  git checkout -
+ 1887  git pull
+ 1888  git status
+ 1889  npm i
+ 1890  ls
+ 1891  vi package.json
+ 1892  cd src
+ 1893  ls
+ 1894  pwd
+ 1895  cd components
+ 1896  ls
+ 1897  ;s
+ 1898  ls
+ 1899  cd code/dhkdtld37-hello-vue.github.io
+ 1900  ls
+ 1901  cd src
+ 1902  ls
+ 1903  ci App.vue
+ 1904  vi App.vue
+ 1905  cd ..
+ 1906  git branch 0.3.1/hello-count
+ 1907  git checkout 0.3.1/hello-count 
+ 1908  ls
+ 1909  cd src
+ 1910  ls
+ 1911  cd ..
+ 1912  vi package.json
+ 1913  ls
+ 1914  cd src
+ 1915  ls
+ 1916  cd components
+ 1917  ls
+ 1918  vi HelloWorld.vue
+ 1919  cp HelloWorld.vue HelloWorld.vue.b
+ 1920  ls
+ 1921  vi HelloWorld.vue
+ 1922  cd ..
+ 1923  ls
+ 1924  vi App.vue
+ 1925  git stauts
+ 1926  git status
+ 1927  git add .
+ 1928  git commit -a
+ 1929  git push
+ 1930  git push --set-upstream origin 0.3.1/hello-count
+ 1931  npm publish
+ 1932  cd ..
+ 1933  npm publish
+ 1934  vi package.json
+ 1935  git add .
+ 1936  git status
+ 1937  npm publish
+ 1938  firebase init
+ 1939  firebase deploy
+ 1940  cd src
+ 1941  ls
+ 1942  npm run build
+ 1943  firebase deploy
+ 1944  git status
+ 1945  git add .
+ 1946  cd ..
+ 1947  ls
+ 1948  cd src
+ 1949  ls
+ 1950  vi App.vue
+ 1951  cd ..
+ 1952  firebase deploy
+ 1953  vi src/App.vue
+ 1954  git commit -a
+ 1955  git push
+ 1956  npm run server
+ 1957  npm run serve
+ 1958  npm run build
+ 1959  vi src/App.vue
+ 1960  npm run build
+ 1961  firebase deploy
+ 1962  git status
+ 1963  git commit -a
+ 1964  git push
+ 1965  git status
+ 1966  vi src/App.vue
+ 1967  npm run build
+ 1968  firebase deploy
+ 1969  vi src/App.vue
+ 1970  git status
+ 1971  npm run dev
+ 1972  ls
+ 1973  cd cod
+ 1974  cd code
+ 1975  cd dhkdtld37-hello-vue.github.io
+ 1976  ls
+ 1977  git stauts
+ 1978  git status
+ 1979  vi src/App.vue
+ 1980  npm run build
+ 1981  firebase deploy
+ 1982  vi src/App.vue
+ 1983  git commit -a
+ 1984  git push
+ 1985  vi src/App.vue
+ 1986  git commit -a
+ 1987  git push
+ 1988  git branch 0.3.2/hello-world
+ 1989  git checkout 0.3.2/hello-world
+ 1990  vi package.json
+ 1991  git add .
+ 1992  git commit -a
+ 1993  git push
+ 1994  git push --set-upstream origin 0.3.2/hello-world
+ 1995  ls
+ 1996  npm run build
+ 1997  npm run dev
+ 1998  ls
+ 1999  vi src/App.vue
+ 2000  firebase deploy
+ 2001  vi src/App.vue
+ 2002  git add .
+ 2003  git commit -m "Hello World\n
+ 2004  git commit -a
+ 2005  git push
+ 2006  git branch 0.3.3/if
+ 2007  git checkout 0.3.3/if
+ 2008  vi jsconfig.json
+ 2009  vi package.json
+ 2010  git add .
+ 2011  git commit -m "start"
+ 2012  git push
+ 2013  vi src/App.vue
+ 2014  npm build
+ 2015  npm run build
+ 2016  firebase deploy
+ 2017  git status
+ 2018  git add .
+ 2019  vi src/App.vue
+ 2020  git commit -s
+ 2021  git commit -a
+ 2022  git push
+ 2023  vi src/App.vue
+ 2024  git add .
+ 2025  vi src/App.vue
+ 2026  git status
+ 2027  git commit -a
+ 2028  git push
+ 2029  vi src/App.vue
+ 2030  git branch 0.3.4/v-for
+ 2031  git checkout 0.3.4/v-for
+ 2032  vi package.json
+ 2033  git add .
+ 2034  git commit -m "first v-for start"
+ 2035  git push
+ 2036  git push --set-upstream origin 0.3.4/v-for
+ 2037  npm run dev
+ 2038  vi src/App.vue
+ 2039  git status
+ 2040  git add .
+ 2041  git commit -a
+ 2042  git push
+ 2043  vi src/App.vue
+ 2044  ls
+ 2045  cd src
+ 2046  ls
+ 2047  cd assets
+ 2048  ls
+ 2049  vi category.json
+ 2050  ls
+ 2051  vi category.json
+ 2052  ls
+ 2053  cd ..
+ 2054  ls
+ 2055  cd ..
+ 2056  vi src/App.vue
+ 2057  ls
+ 2058  cd src
+ 2059  ls
+ 2060  cd assets
+ 2061  ls
+ 2062  pwd
+ 2063  cd ..
+ 2064  vi src/App.vue
+ 2065  vi src/assets/category.json
+ 2066  vi src/App.vue
+ 2067  cd src/assets
+ 2068  ls
+ 2069  vi category.json
+ 2070  cd ..
+ 2071  vi src/App.vue
+ 2072  vi src/assets/category.json
+ 2073  vi src/App.vue
+ 2074  git add .
+ 2075  git commit -a
+ 2076  git push
+ 2077  vi src/App.vue
+ 2078  git add .
+ 2079  git commit -m "delete index key"
+ 2080  git push
+ 2081  vi src/App.vue
+ 2082  git pull
+ 2083  git status
+ 2084  git add .
+ 2085  git push
+ 2086  git pull
+ 2087  vi src/App.vue
+ 2088  git add .
+ 2089  git push
+ 2090  git pull
+ 2091  vi src/App.vue
+ 2092  cd src
+ 2093  ls
+ 2094  cp App.vue App.vue.b
+ 2095  vi App.vue
+ 2096  git add .
+ 2097  git commit -a
+ 2098  git push
+ 2099  ls
+ 2100  cd ..
+ 2101  ls
+ 2102  git stautus
+ 2103  git stauts
+ 2104  git status
+ 2105  git branch 0.3.5/search
+ 2106  git checkout mian
+ 2107  git checkout mai
+ 2108  git checkout main
+ 2109  git pull
+ 2110  git checkout 0.3.4/v-for
+ 2111  git push
+ 2112  git checkout 0.3.5/search
+ 2113  vi package.json
+ 2114  git add .
+ 2115  git commit -a
+ 2116  git push
+ 2117  git push --set-upstream origin 0.3.5/search
+ 2118  git ckeckout main
+ 2119  git checkout main
+ 2120  git pull
+ 2121  git checkout 0.3.5/search
+ 2122  ls
+ 2123  cd src
+ 2124  ls
+ 2125  cd assets
+ 2126  ls
+ 2127  vi bankcode.json
+ 2128  cd ..
+ 2129  ls
+ 2130  cd src
+ 2131  cd assets
+ 2132  ls
+ 2133  vi 2018WorldCup.json
+ 2134  rm 2018WorldCup.json
+ 2135  ls
+ 2136  vi 2018WorldCup.json
+ 2137  git add .
+ 2138  cd ..
+ 2139  git commit -a 
+ 2140  git push
+ 2141  cp src/App.vue src/App.vue.c
+ 2142  vi src/App.vue
+ 2143  vi 2018WorldCup.json
+ 2144  vi src/assets/ 2018WorldCup.json
+ 2145  git status
+ 2146  vi src/assets/2018WorldCup.json
+ 2147  cd src/assets
+ 2148  ls
+ 2149  rm 2018WorldCup.json
+ 2150  ls
+ 2151  vi 2018WorldCup.json
+ 2152  cd
+ 2153  cd code/dhkdtld37-hello-vue.github.io
+ 2154  ls
+ 2155  vi src/App.vue
+ 2156  git add .
+ 2157  git commit -a
+ 2158  git push
+ 2159  npm build
+ 2160  npm run build
+ 2161  firebase deploy
+ 2162  vi src/App.vue
+ 2163  cd co
+ 2164  cd code
+ 2165  cd dhkdtld37
+ 2166  cd ..
+ 2167  cd dhkdtld37-hello-vue.github.io
+ 2168  git add .
+ 2169  git commit -m "firebase deploy"
+ 2170  git push
+ 2171  git checkout main
+ 2172  vi src/App.vue
+ 2173  cp src/App.vue src/App.vue.c
+ 2174  vi src/App.vue
+ 2175  git pull
+ 2176  git add .
+ 2177  git pull
+ 2178  git status
+ 2179  vi src/App.vue
+ 2180  git checkout 0.3.5/search
+ 2181  git push
+ 2182  git commit -m "2024-02-01"
+ 2183  git push
+ 2184  git checkout 0.3.5/search
+ 2185  cd code/3nd_1team
+ 2186  ls
+ 2187  cd R0-Main
+ 2188  git pull
+ 2189  cd ..
+ 2190  cd R1-Json-Server
+ 2191  git pull
+ 2192  cd ..
+ 2193  cd R2-Express
+ 2194  git pull
+ 2195  cd ..
+ 2196  cd R3-NPM
+ 2197  git pull
+ 2198  cd ..
+ 2199  cd R4-VUE
+ 2200  git pull
+ 2201  cd ..
+ 2202  cd R4-VUETI
+ 2203  git pull
+ 2204  cd ..
+ 2205  sudo docker ps
+ 2206  sudo docker rm ps -a
+ 2207  sudo docker ps -a
+ 2208  sudo docker ps
+ 2209  sudo docker images
+ 2210  sudo docker rmi f752d945ab68
+ 2211  sudo docker images
+ 2212  sudo docker ps -a
+ 2213  history
+ 2214  docker pull nginx
+ 2215  sudo docker pull nginx
+ 2216  sudo docker pull nginx:1.25.3
+ 2217  sudo docker images
+ 2218  sudo docker pull nginx
+ 2219  sudo docker images
+ 2220  sudo docker pull nginx:1.25.3-alpine
+ 2221  sudo docker images
+ 2222  sudo docker run --name nginx-blog-1 -p 9050:80 nginx:1.25.3
+ 2223  sudo docker ps
+ 2224  sudo docker ps -a
+ 2225  sudo docker run --name nginx-blog-1 -d -p 9050:80 nginx:1.25.3
+ 2226  sudo docker run --name nginx-blog-2 -d -p 9050:80 nginx:1.25.3
+ 2227  sudo docker ps
+ 2228  sudo docker run --name nginx-blog-3 -d -p 9050:80 nginx:1.25.3
+ 2229  sudo docker ps
+ 2230  sudo docker ps -a
+ 2231  sudo docker run --name nginx-blog-4 -d -p 9054:80 nginx:1.25.3
+ 2232  sudo docker ps -a
+ 2233  sudo docker ps
+ 2234  sudo docker images
+ 2235  sudo docker rmi nginx
+ 2236  sudo docker images
+ 2237  sudo docker rmi nginx
+ 2238  sudo docker rmi nginx:1.25.3
+ 2239  sudo docker ps
+ 2240  sudo docker ps -a
+ 2241  sudo docker ps
+ 2242  sudo docker ps -a
+ 2243  sudo docker stop nginx-blog-4
+ 2244  sudo docker ps -a
+ 2245  sudo docker ps -a | wc -l
+ 2246  sudo docker start nginx-blog-4
+ 2247  sudo docker ps -a
+ 2248  sudo docker images
+ 2249  sudo docker rmi nginx:1.25.3
+ 2250  sudo docekr ps -a | grep 337493ed0d5e
+ 2251  sudo docker ps -a | grep 337493ed0d5e
+ 2252  sudo docker rm nginx-blog-1
+ 2253  sudo docker rmi nginx:1.25.3
+ 2254  sudo docker images
+ 2255  sudo docker ps
+ 2256  sudo docker ps -a | grep 0129f149e026
+ 2257  sudo docker rm nginx-blog-4
+ 2258  sudo docker rmi nginx:1.25.3
+ 2259  sudo docker ps
+ 2260  sudo docker stop nginx-blog-4
+ 2261  sudo docker stop nginx-blog-2
+ 2262  sudo docker rmi nginx:1.25.3
+ 2263  sudo docker rm nginx-blog-2
+ 2264  sudo docker rmi nginx:1.25.3
+ 2265  sudo docker ps -a | grep bf937713b945
+ 2266  sudo docker rm nginx-blog-3
+ 2267  sudo docker ps
+ 2268  sudo docker ps -a
+ 2269  sudo docker rmi nginx:1.25.3
+ 2270  sudo docker rm nginx-blog-4
+ 2271  sudo docker ps -a
+ 2272  sudo docker rmi nginx:1.25.3
+ 2273  sudo docker images
+ 2274  cd code
+ 2275  mkdir docker-nginx
+ 2276  cd docker-nginx
+ 2277  mkdir html
+ 2278  cd html
+ 2279  vi index.html
+ 2280  pwd
+ 2281  docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2282  sudo docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2283  docker login
+ 2284  sudo docker login
+ 2285  sudo docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2286  sudo docker ps
+ 2287  sudo docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2288  ls
+ 2289  sudo docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2290  sudo docker run --name some-nginx-1 -p 9051:80 -v ~/home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2291  sudo docker ps -a
+ 2292  sudo docker run --name some-nginx-1 -p 9051:80 -v ~/code/docker-nginx/html:ro -d nginx
+ 2293  sudo docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2294  sudo service docker restart
+ 2295  sudo docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2296  sudo docker run --name some-nginx-1 -v /home/dhkdtld37/code/docker-nginx/html:ro -d nginx
+ 2297  sudo service docker restart
+ 2298  sudo docker run --name some-nginx-1 -p 9051:80 -v /absolute/host/path:/container/path:ro -d nginx
+ 2299  sudo docker ps
+ 2300  sudo docker ps -a
+ 2301  sudo docker commit some-nginx-1 nginx-vim
+ 2302  sudo docker images
+ 2303  sudo docker run --name some-nginx-1 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx
+ 2304  sudo docker rm some-nginx-1
+ 2305  sudo docker stop some-nginx-1
+ 2306  sudo docker rm some-nginx-1
+ 2307  sudo docker run --name some-nginx-1 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx
+ 2308  sudo docker commit some-nginx-1 nginx-vim
+ 2309  sudo docker ps -a
+ 2310  sudo docker commit some-nginx-1 nginx-vim
+ 2311  sudo docker ps -a
+ 2312  ls
+ 2313  sudo docker run --name some-nginx-1 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx
+ 2314  sudo docker start some-nginx-1
+ 2315  sudo docker ps -a
+ 2316  sudo docker stop some-nginx-1
+ 2317  sudo docker rm some-nginx-1
+ 2318  sudo docker run --name some-nginx-1 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx
+ 2319  sudo docker exec -ot some-nginx-1 bash
+ 2320  sudo docker exec -it some-nginx-1 bash
+ 2321  sudo docker commit some-nginx-1 nginx-vim
+ 2322  sudo docker images
+ 2323  sudo docker run --name some-nginx-2 -p 9051:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx
+ 2324  sudo docker run --name some-nginx-2 -p 9052:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx
+ 2325  sudo docker run --name some-nginx-2 -p 9052:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx-vim
+ 2326  sudo docker stop some-nginx-2
+ 2327  sudo docker rm some-nginx-2
+ 2328  sudo docker run --name some-nginx-2 -p 9052:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx-vim
+ 2329  sudo docker run --name some-nginx-3 -p 9053:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html: -d nginx
+ 2330  sudo docker run --name some-nginx-3 -p 9053:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html:ro -d nginx
+ 2331  sudo docker exec -it some-nginx-2 bash
+ 2332  sudo docker exec -it some-nginx-3 bash
+ 2333  sudo docker exec -it some-nginx-1 bash
+ 2334  sudo docker run --name some-nginx-4 -p 9054:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html: -d nginx
+ 2335  sudo docker run --name some-nginx-4 -p 9054:80 -v /home/dhkdtld37/code/docker-nginx/html:/usr/share/nginx/html -d nginx
+ 2336  sudo docker exec -it some-nginx-4 bash
+ 2337  sudo docker ps
+ 2338  sudo docker ps -a
+ 2339  sudo docker exec -it some-nginx-2 bash
+ 2340  sudo docker exec -it some-nginx-4 bash
+ 2341  docker ps
+ 2342  sudo docker ps
+ 2343  sudo docker ps -a
+ 2344  sudo docker images
+ 2345  sudo docker rmi a75acdad46c8
+ 2346  sudo docker rmi 9706f9a184d4
+ 2347  sudo docker rmi 8801a1e83dd1
+ 2348  sudo docker images
+ 2349  sudo docker ps -a
+ 2350  sudo docker images
+ 2351  docker tag nginx-vim dhkdtld37/nginx-vim:0.1.0
+ 2352  sudo docker tag nginx-vim dhkdtld37/nginx-vim:0.1.0
+ 2353  sudo docker images
+ 2354  sudo docker ps -a
+ 2355  sudo docker images
+ 2356  sudo docker push dhkdtld37/nginx-vim:0.1.0
+ 2357  sudo docker ps
+ 2358  sudo docker ps -a
+ 2359  sudo docker stop some-nginx-1 some-nginx-2 some-nginx-3 some-nginx-4
+ 2360  sudo docker rm some-nginx-1 some-nginx-2 some-nginx-3 some-nginx-4
+ 2361  sudo docker ps -a
+ 2362  sudo docker images
+ 2363  sudo docker rmi nginx-vim nginx
+ 2364  sudo docker images
+ 2365  sudo docker rmi nginx
+ 2366  sudo docker rmi nginx1.25.3-alpine
+ 2367  sudo docker rmi nginx 1.25.3-alpine
+ 2368  sudo docker rmi 2b70e4aaac6b
+ 2369  sudo docker images
+ 2370  sudo docker pull dhkdtld37/nginx-vim:0.1.0
+ 2371  sudo docker images
+ 2372  sudo docker ps -a
+ 2373  sudo docker pull nginx
+ 2374  sudo docker images
+ 2375  sudo docker ps
+ 2376  sudo docker ps -a
+ 2377  sudo docker run --name nginx-vim-1 -p 9054:80 -d dhkdtld37/nginx-vim:0.1.0
+ 2378  sudo docker ps -a
+ 2379  cat index.html
+ 2380  cd ..
+ 2381  git init
+ 2382  git add .
+ 2383  git status
+ 2384  git commit -m "first commit"
+ 2385  git remote add origin git@github.com:dhkdtld37/docker-nginx.git
+ 2386  git push -u origin main
+ 2387  git pull
+ 2388  ls
+ 2389  git branch 0.2.0/docker-hub
+ 2390  git checkout 0.2.0/docker-hub 
+ 2391  vi README.md
+ 2392  git add .
+ 2393  git commit -a
+ 2394  git push
+ 2395  cd html
+ 2396  cat index.html
+ 2397  cd ..
+ 2398  sudo docker ps
+ 2399  sudo docker exec -it nginx-vim-1 bash
+ 2400  id
+ 2401  pwd
+ 2402  git push
+ 2403  vi html/index.html
+ 2404  ls
+ 2405  cd code/docker-nginx
+ 2406  sudo docker exec -it nginx-vim-1 bash
+ 2407  sudo docker cp html/index.html nginx-vim-1:/usr/share/nginx/html
+ 2408  ls -l
+ 2409  sudo docker nginx
+ 2410  sudo docker ps
+ 2411  sudo docker commit nginx-vim-1 nginx-my-html:0.2.0
+ 2412  sudo docker commit nginx-vim-1 dhkdtld37/nginx-my-html:0.2.0
+ 2413  sudo docker ps
+ 2414  sudo docker images
+ 2415  sudo docker push dhkdtld37/nginx-my-html:0.2.0
+ 2416  vi README.md
+ 2417  git add .
+ 2418  git commit -m "ok push hub"
+ 2419  git push
+ 2420  sudo docker pull dhkdtld37/nginx-my-html
+ 2421  git checkout mian
+ 2422  git checkout main
+ 2423  git pull
+ 2424  git branch 0.3.0/fly-deploy
+ 2425  git checkout 0.3.0/fly-deploy
+ 2426  vi README.md
+ 2427  git add .
+ 2428  git commit -m "deploy fly:"
+ 2429  git push
+ 2430  flyctl launch
+ 2431  view fly.toml
+ 2432  git add .
+ 2433  view fly.toml
+ 2434  git add .
+ 2435  git commit -m "fly launch & free vm setting"
+ 2436  git push
+ 2437  flyctl deploy
+ 2438  vi fly.toml 
+ 2439  git add .
+ 2440  flyctl deploy
+ 2441  git add .
+ 2442  git commit -m "fix fly.toml"
+ 2443  git push
+ 2444  git checkout main
+ 2445  git pull
+ 2446  git branch 0.4.0/push-docker-hub
+ 2447  git checkout 0.4.0/push-docker-hub
+ 2448  cd code/dhkdtld37.github.io
+ 2449  ls
+ 2450  vi index.html
+ 2451  sudo docker run --name BlogDockerHub -p 9055:80 -v /home/dhkdtld37/code/dhkdtld37.github.io/html:/usr/share/nginx/html -d dhkdtld37Blog
+ 2452  ls
+ 2453  sudo docker imgaes
+ 2454  sudo docker images
+ 2455  sudo docker run --name BlogDockerHub -p 9055:80 -v /home/dhkdtld37/code/dhkdtld37.github.io/html:/usr/share/nginx/html -d dhkdtld37/nginx-my-html
+ 2456  sudo docker run --name BlogDockerHub -p 9055:80 -v /home/dhkdtld37/code/dhkdtld37.github.io/html:/usr/share/nginx/html -d nginx
+ 2457  sudo docker images
+ 2458  pwd
+ 2459  sudo docker ps
+ 2460  sudo docker ps -a
+ 2461  sudo docker run --name BlogDockerHub -p 9055:80 -v /home/dhkdtld37/code/dhkdtld37.github.io/html:/usr/share/nginx/html -d nginx
+ 2462  pwd
+ 2463  sudo docker stop BlogDockerHub
+ 2464  sudo docker rm BlogDockerHub
+ 2465  sudo docker run --name BlogDockerHub -p 9055:80 -v /home/dhkdtld37/code/dhkdtld37.github.io:/usr/share/nginx/html -d nginx
+ 2466  sudo docker ps
+ 2467  sudo docker images
+ 2468  sudo docker commit BlogDockerHub BlogDH
+ 2469  sudo docker commit BlogDockerHub blogdh
+ 2470  sudo docker tag blogdh dhkdtld37/push-docker-hub:0.4.0
+ 2471  sudo docker images
+ 2472  sudo docker push dhkdtld37/push-docker-hub:0.4.0
+ 2473  sudo docker pull dhkdtld37/push-docker-hub:0.4.0
+ 2474  vi README.md
+ 2475  git add .
+ 2476  git commit -m "push blog repo in docker hub 0.4.0"
+ 2477  git push
+ 2478  git checkout main
+ 2479  git branch 0.4.1/deploy-fly.io
+ 2480  git checkout 0.4.1/deploy-fly.io
+ 2481  vi README.md
+ 2482  git checkout main
+ 2483  git branch -d 0.4.1/deploy-fly.io
+ 2484  git pull
+ 2485  git branch 0.4.1/deploy-fly.io
+ 2486  git checkout 0.4.1/deploy-fly.io
+ 2487  vi README.md
+ 2488  git add .
+ 2489  git commit -a
+ 2490  git push
+ 2491  flyctl launch
+ 2492  flyctl deploy
+ 2493  vi fly.toml
+ 2494  sudo docker images
+ 2495  vi fly.toml
+ 2496  flyctl launch
+ 2497  vi fly.toml
+ 2498  git add .
+ 2499  flyctl deploy
+ 2500  vi fly.toml
+ 2501  git add .
+ 2502  flyctl deploy
+ 2503  git commit -m "deploy fiy.io"
+ 2504  git push
+ 2505  vi fly.toml
+ 2506  git push
+ 2507  git checkout main
+ 2508  git pull
+ 2509  sudo docker exec -it some-nginx-1 bash
+ 2510  sudo docker ps
+ 2511  sudo docker exec -it nginx bash
+ 2512  sudo docker ps -a
+ 2513  sudo docker images
+ 2514  sudo docker exec -it dhkdtld37/push-docker-hub bash
+ 2515  sudo docker exec -it BlogDockerHub bash
+ 2516  cd ..
+ 2517  ls
+ 2518  mkdir docker-nginx-vhost
+ 2519  cd docker-nginx-vhost
+ 2520  git init
+ 2521  vi README.md
+ 2522  git add .
+ 2523  git commit -m "first commit"
+ 2524  git remote add origin git@github.com:dhkdtld37/docker-nginx-vhost.git
+ 2525  git push -u origin main
+ 2526  git pull
+ 2527  sudo docker images
+ 2528  sudo docker rmi dhkdtld37/nginx-vim
+ 2529  sudo docker rmi  5b42c2539260
+ 2530  sudo docker ps -a
+ 2531  sudo docker stop 69485dd64d94
+ 2532  sudo docker rmi 5b42c2539260
+ 2533  sudo docker rmi c9b6d25126d0
+ 2534  sudo docker rmi c361f027a104
+ 2535  sudo docker images
+ 2536  sudo docker rmi  b690f5f0a2d5
+ 2537  sudo docker ps -a
+ 2538  sudo docker rm 69485dd64d94
+ 2539  sudo docker images
+ 2540  sudo docker rmi  b690f5f0a2d5
+ 2541  sudo docker rmi 5b42c2539260
+ 2542  sudo docker images
+ 2543  docker run -itd -p 8002:80 --name serv-a nginx
+ 2544  sudo docker run -itd -p 8002:80 --name serv-a nginx
+ 2545  sudo docker run -itd -p 8003:80 --name serv-a nginx
+ 2546  sudo docker run -itd -p 8001:80 --name lb nginx:latest
+ 2547  sudo docker ps -a
+ 2548  sudo docker run -itd -p 8003:80 --name serv-a nginx
+ 2549  sudo docker run -itd -p 8003:80 --name serv-b nginx
+ 2550  sudo docker ps -a
+ 2551  git pull
+ 2552  pwd
+ 2553  mkdir config
+ 2554  cd config
+ 2555  vi default.conf
+ 2556  git add .
+ 2557  cd ..
+ 2558  git commit -m "default.conf add"
+ 2559  git push
+ 2560  cat config/default.conf
+ 2561  ls -l
+ 2562  docker network ls
+ 2563  sudo docker network ls
+ 2564  sudo docker exec -it lb bash
+ 2565  cd code/docker-nginx-vhost
+ 2566  sudo docker ps
+ 2567  sudo docker images
+ 2568  ls -l
+ 2569  sudo docker ps
+ 2570  ls
+ 2571  mkdir serv-a
+ 2572  mkdir serv-b
+ 2573  ls
+ 2574  vi serv-a/serv-a.html
+ 2575  vi serv-b/serv-b.html
+ 2576  sudo docker cp ser-a/index.html serv-a:/usr/share/nginx/html/
+ 2577  cd serv-a
+ 2578  ls
+ 2579  cp serv-a.html index.html
+ 2580  ls
+ 2581  rm serv-a.html
+ 2582  ls
+ 2583  cd ..
+ 2584  cd serv-b
+ 2585  cp serv-b.html index.html
+ 2586  rm serv-b.html
+ 2587  ls
+ 2588  cd ..
+ 2589  sudo docker cp ser-a/index.html serv-a:/usr/share/nginx/html/
+ 2590  sudo docker cp serv-a/index.html serv-a:/usr/share/nginx/html/
+ 2591  sudo docker cp serv-b/index.html serv-b:/usr/share/nginx/html/
+ 2592  git add .
+ 2593  git commit -m "add index.html files"
+ 2594  git push
+ 2595  sudo docker stop lb
+ 2596  sudo docker start lb
+ 2597  ls
+ 2598  sudo docker ps
+ 2599  sudo docker network create pd24-bridge
+ 2600  sudo docker network ls
+ 2601  sudo docker network inspect pd24-bridge
+ 2602  sudo docker ps
+ 2603  sudo docker network connect pd24-bridge lb
+ 2604  sudo docekr inspect pd24-bridge
+ 2605  sudo docker inspect pd24-bridge
+ 2606  sudo docker ps
+ 2607  sudo docker images
+ 2608  sudo docker ps -a
+ 2609  sudo docker start lb;
+ 2610  sudo docker start lb; sudo docker logs lb
+ 2611  mkdir lb
+ 2612  ls
+ 2613  cd lb config
+ 2614  mv config lb/
+ 2615  ls
+ 2616  git add .
+ 2617  git commit -m "config/default.conf → lb/config/default.conf"
+ 2618  git push
+ 2619  sudo docker ps
+ 2620  cd lb/config
+ 2621  vi default.conf
+ 2622  cat default.conf
+ 2623  sudo docker exec -it serv-a bash
+ 2624  cd code/docker-nginx-vhost
+ 2625  sudo docker exec -it serv-b bash
+ 2626  docker network ls
+ 2627  sudo docker network ls
+ 2628  sudo docker inspect pd24-bridge
+ 2629  cd ..
+ 2630  sudo docker stop lb
+ 2631  docker network rm pd24-bridge
+ 2632  sudo docker rm lb
+ 2633  docker network rm pd24-bridge
+ 2634  sudo docker network rm pd24-bridge
+ 2635  docker network create aaa
+ 2636  sudo docker network create pd24-bridge
+ 2637  sudo docker network rm pd24-bridge
+ 2638  sudo docker network create aaa
+ 2639  sudo docker inspect aaa
+ 2640  sudo docker run -itd -p 8001:80 --name lb nginx:latest
+ 2641  sudo docker ps
+ 2642  cd ..
+ 2643  cd docker-nginx/
+ 2644  ls
+ 2645  git branch 0.4.2/push-docker-hub2
+ 2646  git pull
+ 2647  git checkout 0.4.2/push-docker-hub2
+ 2648  sudo docker ps
+ 2649  sudo docker images
+ 2650  sudo docker stop 6d29acd1e0df
+ 2651  sudo docker rmi  b690f5f0a2d5
+ 2652  sudo docker rmi 5e7ca580c6af
+ 2653  sudo docker rm 6d29acd1e0df
+ 2654  sudo docker rmi 5e7ca580c6af
+ 2655  sudo docker rmi b690f5f0a2d5
+ 2656  sudo docker images
+ 2657  sudo docker ps
+ 2658  sudo docker run --name BlogDockerHub -p 9055:80 -v /home/dhkdtld37/code/dhkdtld37.github.io/html:/usr/share/nginx/html -d nginx
+ 2659  sudo docker ps
+ 2660  sudo docker images
+ 2661  sudo docker commit BlogDockerHub blogdh
+ 2662  sudo docker images
+ 2663  sudo docker tag blogdh dhkdtld37/push-docker-hub:0.4.2
+ 2664  sudo docker push dhkdtld37/push-docker-hub:0.4.2
+ 2665  sudo docker pull dhkdtld37/push-docker-hub:0.4.2
+ 2666  sudo docker ps
+ 2667  sudo docker exec -it BlogDockerHub bash
+ 2668  sudo docker cp /home/dhkdtld37/code/dhkdtld37.github.io:/usr/share/nginx/html/
+ 2669  pwd
+ 2670  cp /home/dhkdtld37/code/dhkdtld37.github.io /home/dhkdtld37/code/docker-nginx
+ 2671  ls
+ 2672  cp /home/dhkdtld37/code/dhkdtld37.github.io /home/dhkdtld37/code/docker-nginx/html
+ 2673  cp -r /home/dhkdtld37/code/dhkdtld37.github.io /home/dhkdtld37/code/docker-nginx/html
+ 2674  ls
+ 2675  cd html
+ 2676  ls
+ 2677  cd dhkdtld37.github.io
+ 2678  ls
+ 2679  cd ..
+ 2680  ls
+ 2681  cd ..
+ 2682  rm -rf html
+ 2683  ls
+ 2684  cd ..
+ 2685  cd dhkdtld37.github.io
+ 2686  ls
+ 2687  cd ..
+ 2688  cd docker-nginx
+ 2689  ls
+ 2690  git status
+ 2691  ls
+ 2692  sudo docker ps
+ 2693  sudo docker stop 0eea731c8a29
+ 2694  sudo docker rm 0eea731c8a29
+ 2695  sudo docker ps
+ 2696  sudo docker imgaes
+ 2697  sudo docker images
+ 2698  sudo docker rmi 5780b63a740b
+ 2699  sudo docker rim -f 5780b63a740b
+ 2700  sudo docker rmi -f 5780b63a740b
+ 2701  sudo docker images
+ 2702  sudo docker ps
+ 2703  sudo docker run --name BlogDockerHub -p 9055:80 -v /home/dhkdtld37/code/dhkdtld37.github.io:/usr/share/nginx/html -d nginx
+ 2704  sudo docker ps
+ 2705  sudo docker commit BlogDockerHub blogdh
+ 2706  sudo docker images
+ 2707  sudo docker tag blogdh dhkdtld37/push-docker-hub:0.4.0
+ 2708  sudo docker tag blogdh dhkdtld37/push-docker-hub:0.4.2
+ 2709  sudo docker images
+ 2710  sudo docker rmi 7649b74f6c58
+ 2711  sudo docker rmi -f 7649b74f6c58
+ 2712  sudo docker images
+ 2713  sudo docker ps
+ 2714  cd ..
+ 2715  cd docker-nginx
+ 2716  git checkout main
+ 2717  git branch -d 0.4.2/push-docker-hub2
+ 2718  ls
+ 2719  git add .
+ 2720  git status
+ 2721  git commit -m "수정중"
+ 2722  git push
+ 2723  cd ..
+ 2724  cd docker-nginx-vhost
+ 2725  ls
+ 2726  git pull
+ 2727  sudo docker ps
+ 2728  cd code/docker-nginx-vhost
+ 2729  cd ..
+ 2730  cd temp
+ 2731  sudo docker container inspect serv-b > serv-b.container-inspect
+ 2732  sudo docker exec -it serv-a bash
+ 2733  code .
+ 2734  sudo docker network ls
+ 2735  sudo docker network inspect aaa
+ 2736  sudo network connect aaa serv-a
+ 2737  sudo docker network connect aaa serv-a
+ 2738  sudo docker network connect aaa serv-b
+ 2739  sudo docker network connect aaa lb
+ 2740  sudo docker network inspect
+ 2741  sudo docker network inspect aaa
+ 2742  sudo docker restart serv-a
+ 2743  sudo docker network inspect aaa
+ 2744  sudo docker exec -it serv-a bash
+ 2745  sudo docker stop serv-a
+ 2746  sudo docker restaty serv-a
+ 2747  sudo docker restatt serv-a
+ 2748  sudo docker restart serv-a
+ 2749  sudo docker ps
+ 2750  sudo docker images
+ 2751  cd ..
+ 2752  cd docker-nginx
+ 2753  git pull
+ 2754  git branch 0.4.2/push-docker-hub2
+ 2755  git checkout 0.4.2/push-docker-hub2
+ 2756  ls
+ 2757  sudo docker ps
+ 2758  sudo docker images
+ 2759  sudo docker commit BlogDockerHub blogdh
+ 2760  sudo docker images
+ 2761  sudo docker tag blogdh dhkdtld37/push-docker-hub:0.4.2
+ 2762  sudo docker images
+ 2763  sudo docker run --rm --name test dhkdtld37/push-docker-hub:0.4.2
+ 2764  sudo docker run --rm --name test -p 9088:80 dhkdtld37/push-docker-hub:0.4.2
+ 2765  ls
+ 2766  cd ..
+ 2767  ls
+ 2768  cd dhkdtld37.github.io
+ 2769  ls
+ 2770  sudo docker run --rm --name test -p 9088:80 -d dhkdtld37/push-docker-hub:0.4.2
+ 2771  sudo docker cp . test:/usr/share/nginx/html/
+ 2772  sudo docker exec -it test
+ 2773  sudo docker exec -it test bash
+ 2774  sudo docker commit test dhkdtld37/push-do\ncker-hub:0.4.3
+ 2775  sudo docker commit test dhkdtld37/push-docker-hub:0.4.3
+ 2776  sudo docker images
+ 2777  sudo docker push dhkdtld37/push-docker-hub:0.4.3
+ 2778  sudo docker ps
+ 2779  sudo docker rm test
+ 2780  sudo docker stop test
+ 2781  sudo docker ps -a
+ 2782  sudo docker pull dhkdtld37/push-docker-hub:0.4.3
+ 2783  sudo docker run -p 9099:80 dhkdtld37/push-docker-hub:0.4.3
+ 2784  sudo docker ps -a
+ 2785  sudo docker rm epic_meitner
+ 2786  cd ..
+ 2787  ls
+ 2788  cd docker-nginx
+ 2789  ls
+ 2790  vi fly.toml
+ 2791  flyctl deploy
+ 2792  git status
+ 2793  vi fly.toml
+ 2794  flyctl deploy
+ 2795  vi fly.toml
+ 2796  git add .
+ 2797  git commit -a
+ 2798  git push
+ 2799  git push --set-upstream origin 0.4.2/push-docker-hub2
+ 2800  sudo docker ps
+ 2801  sudo docker images
+ 2802  sudo docker rmi  5e7ca580c6af
+ 2803  sudo docker rmi bafba5f83087
+ 2804  sudo docker images
+ 2805  sudo docker rmi 8afdccbdb678
+ 2806  sudo docker rmi -f 8afdccbdb678
+ 2807  sudo docker ps
+ 2808  vi fly.toml
+ 2809  git checkout main
+ 2810  cd ..
+ 2811  cd docker-nginx-vhost
+ 2812  ls
+ 2813  sudo docker run --detach --name some-mariadb --env MARIADB_ROOT_PASSWORD=my-secret-pw  mariadb:latest
+ 2814  sudo docker run --detach --name some-mariadb-1 --env MARIADB_ROOT_PASSWORD=my-secret-pw -p 3306:3306 mariadb:latest
+ 2815  sudo docker ps
+ 2816  sudo docker rm cd41160d40f6
+ 2817  sudo docker stop cd41160d40f6
+ 2818  sudo docker rm cd41160d40f6
+ 2819  sudo docker ps
+ 2820  sudo docker images
+ 2821  sudo docker rmi 8afdccbdb678
+ 2822  sudo docker rmi blogdh
+ 2823  sudo docker images
+ 2824  sudo docker images -a
+ 2825  sudo docker rmi 8afdccbdb678
+ 2826  sudo docker rmi -f 8afdccbdb678
+ 2827  mkdir nginx
+ 2828  cd nginx
+ 2829  ls
+ 2830  pwd
+ 2831  vi Dockerfile
+ 2832  git add .
+ 2833  git commit -m "DockerHub Nginx dockerfile"
+ 2834  git push
+ 2835  cd ..
+ 2836  git push
+ 2837  git pull
+ 2838  git push
+ 2839  git pull origin main
+ 2840  sudo docker build -t nginx-my-build:0.1.0 -f Dockerfile
+ 2841  git status
+ 2842  git pull
+ 2843  git status
+ 2844  git pull
+ 2845  git pull origin main --no-rebase
+ 2846  git push
+ 2847  git pull
+ 2848  ls
+ 2849  cd nginx
+ 2850  cd
+ 2851  cd code/docker-nginx-vhost
+ 2852  cd nginx
+ 2853  ls
+ 2854  vi Dockerfile
+ 2855  cd ..
+ 2856  ls
+ 2857  cd serv-a
+ 2858  ls
+ 2859  vi index.html
+ 2860  ls
+ 2861  vi Dockerfile
+ 2862  sudo docker build -t n-s-1:0.1.0 -f Dockerfile
+ 2863  sudo docker build -t n-s-1:0.1.0 -f .
+ 2864  sudo docker images
+ 2865  sudo docker build -t n-s-1:0.1.0 .
+ 2866  sudo docker ps
+ 2867  sudo docker images
+ 2868  sudo docker build -t n-s-1:0.2.0 .
+ 2869  sudo docker imates
+ 2870  sudo docker images
+ 2871  git add .
+ 2872  git commit -m "sudo docker build -t n-s-1:0.1.0 ."
+ 2873  git push
+ 2874  cd ..
+ 2875  cd serv-b
+ 2876  cd ..
+ 2877  cd serv-b
+ 2878  cp ../serv-a/Dockerfile .
+ 2879  vi Dockerfile
+ 2880  sudo docker build -t n-s-2:0.1.0 .
+ 2881  sudo docker images
+ 2882  sudo docker run -d -p 9002:80 n-s-1:0.1.0
+ 2883  git add .
+ 2884  git commit -m "serv-b sudo docker run -d -p 9002:80 n-s-1:0.1.0"
+ 2885  git push
+ 2886  git branch 0.1.0/Dockerfile
+ 2887  git checkout 0.1.0/Dockerfile
+ 2888  git pull
+ 2889  git checkout main
+ 2890  git pull
+ 2891  git checkout 0.1.0/Dockerfile
+ 2892  ls
+ 2893  cd ..
+ 2894  ls
+ 2895  sudo docker ps
+ 2896  vi README.md
+ 2897  git add .
+ 2898  git commit -a
+ 2899  git push
+ 2900  LS
+ 2901  ls
+ 2902  cd serv-a
+ 2903  ls
+ 2904  vi Dockerfile
+ 2905  cd ..
+ 2906  sudo docker images
+ 2907  sudo docker ps
+ 2908  sudo docker stop e13afcef946f
+ 2909  sudo docker rm e13afcef946f
+ 2910  sudo docker rmi 1572a2c1ae2f
+ 2911  sudo docker rmi n-s-1
+ 2912  sudo docker rmi n-s-2
+ 2913  sudo docker ps -a
+ 2914  sudo docker rmi -f n-s-1
+ 2915  sudo docker rmi -f n-s-2
+ 2916  sudo docker images
+ 2917  sudo docker rmi -f f72c570926e7
+ 2918  sudo docker rmi -f 1572a2c1ae2f
+ 2919  sudo docker images -a
+ 2920  sudo docker build -t ns-a:0.1.0 .
+ 2921  cd serv-a
+ 2922  ls
+ 2923  sudo docker build -t ns-a:0.1.0 .
+ 2924  sudo docker run -d -p 9002:80 ns-a:0.1.0
+ 2925  cd ..
+ 2926  cd serv-b
+ 2927  sudo docker build -t ns-b:0.1.0 .
+ 2928  sudo docker run -d -p 9003:80 ns-b:0.1.0
+ 2929  cd ..
+ 2930  sudo docker network create serv-ab
+ 2931  sudo docker network
+ 2932  sudo docker network ls
+ 2933  sudo docker network inspect serv-ab
+ 2934  sudo docker ps
+ 2935  sudo docker network connect serv-ab magical_pike
+ 2936  sudo docker network connect serv-ab awesome_volhard
+ 2937  sudo docker network inspect serv-ab
+ 2938  ls
+ 2939  cd lb
+ 2940  ls
+ 2941  cd ..
+ 2942  cd serv-a
+ 2943  cd ..
+ 2944  cp serv-a/Dockerfile lb/Dockerfile
+ 2945  cd lb
+ 2946  sudo docker ps
+ 2947  sudo docker build -t ns-lb:0.1.0 .
+ 2948  ls
+ 2949  cd ..
+ 2950  cd serv-a
+ 2951  vi Dockerfile
+ 2952  vi index.html
+ 2953  cd ..
+ 2954  cd lb
+ 2955  vi index.html
+ 2956  sudo docker build -t ns-lb:0.1.0 .
+ 2957  sudo docker run -d -p 9001:80 ns-lb:0.1.0
+ 2958  cd ..
+ 2959  sudo docker ps
+ 2960  $ sudo docker network connect serv-ab thirsty_hopper
+ 2961  sudo docker network connect serv-ab thirsty_hopper
+ 2962  sudo docker network inspect serv-ab
+ 2963  git add .
+ 2964  git commit -m "lb 도커파일 생성"
+ 2965  git push
+ 2966  ls
+ 2967  cd lb
+ 2968  ls
+ 2969  cd config
+ 2970  ls
+ 2971  vi default.conf
+ 2972  cd .. ..
+ 2973  cd ..
+ 2974  sudo docker network
+ 2975  sudo docker network ls
+ 2976  sudo docker start lb
+ 2977  sudo docker ps
+ 2978  sudo docker stop aae19a7056c1 14e5b59c6def 86fe3a4cbec8
+ 2979  sudo docker rm aae19a7056c1 14e5b59c6def 86fe3a4cbec8
+ 2980  sudo docekr images
+ 2981  sudo docker images
+ 2982  sudo docker ps
+ 2983  sudo docker stop 75934d4f6218 7365bdfc1e00 448a705be79f
+ 2984  sudo docker rm 75934d4f6218 7365bdfc1e00 448a705be79f
+ 2985  sudo docker ps
+ 2986  sudo docker run -d -p 9001:80 --name serv-a ns-lb:0.1.0
+ 2987  sudo docker ps
+ 2988  sudo docker stop 2fc0016337a0
+ 2989  sudo docker rm 2fc0016337a0
+ 2990  sudo docker ps
+ 2991  sudo docker ps -a
+ 2992  sudo docker rm a7875b930b6c
+ 2993  sudo docker run -d -p 9003:80 --name serv-b ns-b:0.1.0
+ 2994  sudo docker network inspect serv-ab
+ 2995  sudo docker ps
+ 2996  sudo docker network connect serv-ab lb
+ 2997  sudo docker network connect serv-ab serv-a
+ 2998  sudo docker network connect serv-ab serv-b
+ 2999  sudo docker network inspect serv-ab
+ 3000  ls
+ 3001  cd lb
+ 3002  ls
+ 3003  cat Dockerfile
+ 3004  vi Dockerfile
+ 3005  sudo docker images
+ 3006  sudo docker build -t ns-nl-2 .
+ 3007  sudo docker images
+ 3008  sudo docker run --name lb -d -p 9090:80 ns-nl-2
+ 3009  sudo docker ps
+ 3010  sudo docker stop lb
+ 3011  sudo docker rm lb
+ 3012  sudo docker run --name lb -d -p 9090:80 ns-nl-2
+ 3013  sudo docker ps
+ 3014  sudo docker network ls
+ 3015  sudo docker inspect serv-ab
+ 3016  sudo docker ps
+ 3017  sudo docker ps -a
+ 3018  sudo docker network connect serv-ab lb
+ 3019  sudo docker start lb
+ 3020  sudo docker ps
+ 3021  sudo docker logs lb
+ 3022  ls
+ 3023  cd config
+ 3024  vi default.conf
+ 3025  sudo docker images
+ 3026  sudo docker rm ns-nl-2
+ 3027  sudo docker rm lb
+ 3028  sudo docker rm ns-nl-2
+ 3029  sudo docker rmi ns-nl-2
+ 3030  sudo docker build -t ns-lb-1 .
+ 3031  ls
+ 3032  cd ..
+ 3033  ls
+ 3034  sudo docker build -t ns-lb-1 .
+ 3035  sudo docker run --name lb -d -p 9090:80 ns-lb-1
+ 3036  sudo docker network connect serv-ab lb
+ 3037  sudo docker start lb
+ 3038  sudo docker logs lb
+ 3039  cd ..
+ 3040  git add .
+ 3041  git commit -m "좀 더 봐야함, 한번 더 해볼 것"
+ 3042  git push
+ 3043  history
+ 3044  cd code/docker-nginx-vhost
+ 3045  sudo docker ps
+ 3046  sudo docker images
+ 3047  sudo docker ps -a
+ 3048  sudo docker images -a
+ 3049  sudo docker rmi a8758716bb6a
+ 3050  sudo docker rmi -f a8758716bb6a
+ 3051  sudo docker images -a
+ 3052  ls
+ 3053  cd ..
+ 3054  sudo docker ps
+ 3055  sudo docker ps -a
+ 3056  sudo docker network
+ 3057  sudo docker network ls
+ 3058  cd docker-nginx
+ 3059  sudo docker images
+ 3060  cd ..
+ 3061  cd docker-nginx
+ 3062  cd ..
+ 3063  cd docker-nginx-vhost
+ 3064  git pull
+ 3065  git checkout main
+ 3066  git pull
+ 3067  sudo docker ps -a
+ 3068  ls
+ 3069  sudo docker ps -al
+ 3070  ls
+ 3071  cd config
+ 3072  ls
+ 3073  cd ..
+ 3074  git checkout 0.1.0/Dockerfile
+ 3075  ls
+ 3076  cd config
+ 3077  ls
+ 3078  cd ..
+ 3079  ls
+ 3080  cd ls
+ 3081  cd lb
+ 3082  vi index.html
+ 3083  cd ..
+ 3084  sudo docker ps
+ 3085  sudo docker ps -a
+ 3086  sudo docker run -itd -p 8002:80 --name serv-a nginx
+ 3087  sudo docker run -itd -p 8003:80 --name serv-b nginx
+ 3088  sudo docker run -itd -p 8001:80 --name lb nginx
+ 3089  sudo docker ps -a
+ 3090  ls
+ 3091  cd lb
+ 3092  ls
+ 3093  cd config
+ 3094  ls
+ 3095  vi default.conf
+ 3096  cd ..
+ 3097  vi Dockerfile
+ 3098  vi index.html
+ 3099  cd ..
+ 3100  sudo docker exec -it lb bash
+ 3101  sudo docker network ls
+ 3102  sudo docker network create aaa
+ 3103  sudo docker network ls
+ 3104  sudo docker network inspect aaa
+ 3105  sudo docker network connect aaa serv-a
+ 3106  sudo docker network connect aaa serv-b
+ 3107  sudo docker network connect aaa lb
+ 3108  sudo docker network inspect aaa
+ 3109  sudo docker commit serv-a bbb/serv-a
+ 3110  sudo docker commit serv-b bbb/serv-b
+ 3111  sudo docker rm serv-a
+ 3112  sudo docker stop serv-a ser-b
+ 3113  sudo docker rm serv-a serv-b
+ 3114  sudo docker stop serv-b
+ 3115  sudo docker rm serv-b
+ 3116  cd ..
+ 3117  git clone git@github.com:dhkdtld37/tomcat.git
+ 3118  ls
+ 3119  cd code/tomcat
+ 3120  ls
+ 3121* cd docker-nginx-vhost
+ 3122* sudo docker ps
+ 3123* sudo docker images
+ 3124* sudo docker run --name serv-a -d bbb/serv-a
+ 3125* sudo docker run --name serv-b -d bbb/serv-b
+ 3126* sudo docker ps
+ 3127* sudo docker network connect aaa serv-a
+ 3128* sudo docker network connect aaa serv-b
+ 3129  git branch 20.0.0/super-tomcat
+ 3130  git checkout 20.0.0/super-tomcat
+ 3131  ls
+ 3132  vi README.md
+ 3133  git add .
+ 3134  git commit -m "fix README.md
+ 3135  git commit -m "fix README.md"
+ 3136  git push
+ 3137  git push --set-upstream origin 20.0.0/super-tomcat
+ 3138  git pull
+ 3139* sudo docker build -t serv-a:0.1.0 .
+ 3140* sudo docker cp serv-a/index.html serv-a:/usr/share/nginx/html/
+ 3141* sudo docker cp serv-b/index.html serv-b:/usr/share/nginx/html/
+ 3142* sudo docker build -t serv-a:0.1.0 .
+ 3143* sudo docker cp config/default.conf lb:/etc/nginx/conf.d/
+ 3144* ls
+ 3145* sudo docker cp lb/config/default.conf lb:/etc/nginx/conf.d/
+ 3146* sudo docker build -t serv-a:0.1.0 .
+ 3147* sudo docker ps
+ 3148* sudo docker stop 197a8a2e021e aad1fe0081f1
+ 3149* sudo docker rm 197a8a2e021e aad1fe0081f1
+ 3150* sudo docker stop lb
+ 3151* sudo docker rm lb
+ 3152* sudo docker ps -a
+ 3153* sudo docker images
+ 3154* sudo docker rmi bbb/serv-a
+ 3155* sudo docker rmi bbb/serv-b
+ 3156* sudo docker network ls
+ 3157* sudo docker network rm aaa
+ 3158* git checkout main
+ 3159* git pull
+ 3160* git push
+ 3161  cd ..
+ 3162  rm -rf tomcat
+ 3163  ls
+ 3164  git clone git@github.com:dhkdtld37/tomcat.git
+ 3165  cd tomcat
+ 3166  ls
+ 3167* git pull
+ 3168  git branch 20.0.0/super-tomcat
+ 3169  git checkout 20.0.0/super-tomcat
+ 3170  vi README.md
+ 3171  git add .
+ 3172  git commit -a
+ 3173  git push
+ 3174  git push --set-upstream origin 20.0.0/super-tomcat
+ 3175* git pull
+ 3176* ls
+ 3177* git branch -d 20.0.0/super-tomcat
+ 3178* git pull
+ 3179* ls
+ 3180  cd ..
+ 3181  cd var/run
+ 3182  cd /var/run
+ 3183  ls -l docker*
+ 3184  docker run nginx
+ 3185  mkdir ubuntu-nginx
+ 3186  ubuntu_nginx
+ 3187  ubuntu nginx
+ 3188  ls
+ 3189  cd ..
+ 3190  cd oc
+ 3191  cd code
+ 3192  cd /code
+ 3193  cd home
+ 3194  cd code
+ 3195  ls
+ 3196  cd dhkdtld37
+ 3197  cd code
+ 3198  ls
+ 3199  mkdir ubuntu-nginx
+ 3200  cd ubuntu-nginx
+ 3201  git init
+ 3202  git add README.md
+ 3203  git commit -m "first commit"
+ 3204  git remote add origin git@github.com:dhkdtld37/ubuntu-nginx.git
+ 3205  git push -u origin main
+ 3206  git remote add origin git@github.com:dhkdtld37/ubuntu-nginx.git
+ 3207  git push -u origin main
+ 3208  git branch -M main
+ 3209  git push -u origin main
+ 3210  git checkout -b main
+ 3211  git add .
+ 3212  git commit -m "Initial commit"
+ 3213  git push -u origin main
+ 3214  cd ..
+ 3215  rm ubuntu-nginx
+ 3216  rd ubuntu-nginx
+ 3217  rm -rf ubuntu-nginx
+ 3218  mkdir ubuntu-nginx
+ 3219  cd ubuntu-nginx
+ 3220  git init
+ 3221  git commit -m "first commit"
+ 3222  git add .
+ 3223  git branch -M main
+ 3224  git remote add origin git@github.com:dhkdtld37/ubuntu-nginx.git
+ 3225  git push -u origin main
+ 3226  cd ..
+ 3227  rm -rf ubuntu-nginx
+ 3228  ls
+ 3229  git status
+ 3230  ls
+ 3231  mkdir ubuntu-nginx
+ 3232  cd ubuntu-nginx
+ 3233  echo "# ubuntu-nginx" >> README.md
+ 3234  git init
+ 3235  git add README.md
+ 3236  git commit -m "first commit"
+ 3237  git branch -M main
+ 3238  git remote add origin git@github.com:dhkdtld37/ubuntu-nginx.git
+ 3239  git push -u origin main
+ 3240  sudo docker images
+ 3241  sudo docker ps
+ 3242  sudo docker pull ubuntu:22.04
+ 3243  sudo doccker ps
+ 3244  sudo docker ps
+ 3245  sudo docker images
+ 3246  sudo docker run -it --name ubuntu-nginx ubuntu:22.04
+ 3247  sudo docker run -it --name ubuntu-nginx -d ubuntu:22.04
+ 3248  sudo docker ps -a
+ 3249  ls
+ 3250  git branch 0.1.0/ubuntu IMG
+ 3251  git branch 0.1.0/ubuntu_img
+ 3252  git checkout 0.1.0/ubuntu_img
+ 3253  vi README.md
+ 3254  git add .
+ 3255  git commit -a
+ 3256  git push
+ 3257  git push --set-upstream origin 0.1.0/ubuntu_img
+ 3258  sudo docker ps
+ 3259  sudo docekr ps -a
+ 3260  sudo docker ps -a
+ 3261  sudo docker run -it --name ubuntu-nginx -p 8000:80 -d ubuntu:22.04
+ 3262  sudo docker start -p 8000:80 ubuntu-nginx
+ 3263  sudo docker rm ubuntu-nginx
+ 3264  sudo docker ps -a
+ 3265  sudo docker run -it -p 8000:80 --name ubuntu-nginx -d ubuntu:22.04
+ 3266  sudo docker ps -a
+ 3267  sudo docker images
+ 3268  sudo docker exec -it ubuntu-nginx bash
+ 3269  sudo docker ps -a
+ 3270  sudo docker commit ubuntu-nginx ubuntu:22.04
+ 3271  sudo docker ps -a
+ 3272  sudo docker images
+ 3273  sudo docker rmi fd1d8f58e8ae
+ 3274  sudo docker push ubuntu-nginx:0.1.0 
+ 3275  sudo docker push ubuntu-nginx:22.04
+ 3276  sudo docker push ubuntu-nginx
+ 3277  sudo docker push ubuntu-nginx:0.1.0 .
+ 3278  sudo docker push ubuntu-nginx:0.1.0 
+ 3279  sudo docker ps
+ 3280  sudo docekr images
+ 3281  sudo docker images
+ 3282  sudo docker stop ubuntu-nginx
+ 3283  sudo docker rm ubuntu-nginx
+ 3284  sudo docker ps -a
+ 3285  sudo docker rm nginx
+ 3286  sudo docker rm 1a90d1e5ce57
+ 3287  sudo docker ps -a
+ 3288  sudo docker images
+ 3289  sudo docker rmi ubuntu
+ 3290  sudo docker rmi 92fc9f68bf92
+ 3291  sudo docker rmi fd1d8f58e8ae
+ 3292  sudo docker images
+ 3293  sudo docker run -it -p 8001:80 --name ubuntu-nginx -d ubuntu:22.04
+ 3294  sudo docker ps -a
+ 3295  sudo docker images
+ 3296  vi index.html
+ 3297  git add .
+ 3298  sudo docker exec -it ubuntu-nginx bash
+ 3299  sudo docker ps 
+ 3300  sudo docker exec -it ubuntu-nginx bash
+ 3301  vi Dockerfile
+ 3302  ls
+ 3303  sudo docker build -t ubuntu-nginx:0.1.0 .
+ 3304  sudo docker ps -a
+ 3305  sudo docker images
+ 3306  sudo docker push ubuntu-nginx:0.1.0
+ 3307  sudo docker login
+ 3308  sudo docker push ubuntu-nginx:0.1.0
+ 3309  sudo docker tag ubuntu-nginx:0.1.0 dhkdtld37/ubuntu-nginx:0.1.0
+ 3310  sudo docker push dhkdtld37/ubuntu-nginx:0.1.0
+ 3311  sudo docker images
+ 3312  git add .
+ 3313  git commit -m "docker로 우분투 이미지 실행 및 nginx 화면 출력, 도커 허브 레포 생성"
+ 3314  git push
+ 3315  git checkout main
+ 3316  git pull
+ 3317  ls
+ 3318  vi Dockerfile
+ 3319  git add .
+ 3320  git commit -m "도커 파일 내용 수정"
+ 3321  git push
+ 3322  git pull origin main
+ 3323  git push
+ 3324  git merge origin/main
+ 3325  git push
+ 3326  git pull
+ 3327  cd ..
+ 3328  mkdir dhkdtld37.blog
+ 3329  cd dhkdtld37.blog
+ 3330  git init
+ 3331  git commit -m "first commit"
+ 3332  echo "# dhkdtld37.blog" >> README.md
+ 3333  git add README.md
+ 3334  git commit -m "first commit"
+ 3335  git remote add origin git@github.com:dhkdtld37/dhkdtld37.blog.git
+ 3336  git push -u origin main
+ 3337  git branch 240215.1/Dockerfile
+ 3338  git checkout 240215.1/Dockerfile
+ 3339  vi README.md
+ 3340  git add .
+ 3341  git commit -a
+ 3342  git push
+ 3343  git push --set-upstream origin 240215.1/Dockerfile
+ 3344  sudo docker pull ubuntu:22.04
+ 3345  vi Dockerfile
+ 3346  sudo docker ps -a
+ 3347  sudo docker run -it -p 9001:80 --name dockerblog -d ubuntu:22.04
+ 3348  sudo docker exec -it dockerblog bash
+ 3349  vi Dockerfile
+ 3350  git add .
+ 3351  sudo docker exec -it dockerblog bash
+ 3352  sudo docker build -t dockerblog:0.1.0
+ 3353  sudo docker ps 
+ 3354  sudo docker images
+ 3355  pwd
