@@ -1,4 +1,3 @@
 #!/bin/bash
 
-date >> /home/dhkdtld37/code/dhkdtld37.blog/logfile.txt
-
+date >> /home/nori/code/pysatellite.blog/logfile.txt

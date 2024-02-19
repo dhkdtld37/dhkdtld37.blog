@@ -1,12 +1,15 @@
-# dhkdtld37.blog
+# pysatellite.blog
 
-### 240215.1 Dockerfile branch
+### Dockerfile
+```
+$ docker build -t unginx:240215 .
 
-### 240215.2 flt branch
+$ sudo docker run -d -p 8888:80 unginx:240215
 
-### 240215.3 copy branch
+$ curl http://localhost:8888
+```
 
-### 240215.4 git branch
-
-### 240215.5 action branch
-
+### fly
+```
+$ flyctl deploy
+```

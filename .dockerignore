@@ -1,4 +1,7 @@
-fly.tlml
-Dokcerfile
+fly.toml
+README.txt
+README.md
+Changlog.md
+Dockerfile
 history.log
-
+LICENSE.txt
