@@ -1,15 +1,16 @@
-# fly.toml app configuration file generated for pysatellite-blog on 2024-02-16T15:17:23+09:00
+# fly.toml app configuration file generated for pysatellite-blog-dhkdtld37 on 2024-02-19T17:26:12+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'pysatellite-blog'
+app = 'pysatellite-blog-dhkdtld37'
 primary_region = 'nrt'
 
 [build]
+  images = "pysatellite/blog-tomsawyer:latest"
 
 [http_service]
-  internal_port = 8080
+  internal_port = 80
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
